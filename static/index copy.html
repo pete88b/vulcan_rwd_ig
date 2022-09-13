@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Translation</title>
+	<style>
+		body {
+			font-family: Verdana, "Trebuchet MS", Arial, sans-serif;
+		}
+		body.highlight {
+			background: rgba(40, 90, 40, 0.15);
+		}
+		textarea {
+			width: 75%;
+			font-size: 130%;
+		}
+		select {
+			font-size: 110%;
+		}
+		.header { 
+			cursor: pointer;
+		}
+		.header.open { 
+			color: gray;
+		}
+		.header:hover { 
+			color: #15c;
+			text-decoration: underline;
+		}
+		a {
+			color: #15c;
+			cursor: pointer;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		a:active {
+			text-decoration: underline;
+		}
+		.toggleTranslationStatusLink {
+			float: right;
+		}
+	</style>
+</head>
+<body>
+
+<fieldset>
+	<legend><a id="translate" title="Click to run auto-translation ... this might take a while">Translate</a></legend>
+	<div id="translationOptions">
+		<select id="term_option">
+			<option>all terms</option>
+			<option>terms with no translation</option>
+		</select>
+		<label for="source_language">from source language</label>
+		<select id="source_language">
+			<option>de</option>
+			<option>fr</option>
+		</select>
+		<label for="target_language">to target language</label>
+		<select id="target_language">
+			<option>en</option>
+		</select>
+		<!-- <a id="translate">-> Translate Now!</a> -->
+	</div>
+</fieldset>
+
+<div id="data-container"></div>
+
+<hr>
+<div style="font-size: 80%; float: right; color: gray;">
+	Drag and drop a file &uarr; to load terms to be translated.
+</div>
+
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+<script>
+
+const fr_to_en = new Map();
+// fr_to_en.set("Abus de nicotine", "Abuse of nicotine")
+// fr_to_en.set("acouphènes", "tinnitus")
+// fr_to_en.set("adiposité", "adiposeness")
+// fr_to_en.set("adénome surrénal", "adrenal adenoma")
+// fr_to_en.set("Affections sensorielles (fingertips, gauche)", "Sensory disorders (fingertips, left)")
+// fr_to_en.set("allergie (pénicilline, plâtres, protéines de poisson)", "Allergy (penicillin, plaster, fish protein)")
+// fr_to_en.set("Allergie : novalgine, nickel, milieu de contraste (CT)", "Allergy: novalgine, nickel, contrast medium (CT)")
+// fr_to_en.set("allergie au plâtre", "Allergy to plaster")
+// fr_to_en.set("allergie aux médias contrastés", "Allergy to contrasting media")
+// fr_to_en.set("Allergie aux médias de contraste iodés", "Allergy to iodized contrast media")
+// fr_to_en.set("Allergie aux plastiques", "Allergy to plastics")
+// fr_to_en.set("Allergie à l'amoxcilline", "Amoxcilline Allergy")
+// fr_to_en.set("allergie à l'héparine", "Heparin allergy")
+// fr_to_en.set("Allergie à la pénicilline", "Penicillin Allergy")
+// fr_to_en.set("allergies", "Allergies")
+// fr_to_en.set("Allergies: mugwort, létrozole", "Allergies: mugwort, letrozole")
+// fr_to_en.set("allergique", "allergic")
+// fr_to_en.set("allergique à la pénicilline", "allergic to penicillin")
+// fr_to_en.set("alopécie", "Alopecia")
+// fr_to_en.set("Alvéoles sarcoïdales", "Sarcoid alveoles")
+// fr_to_en.set("anémie", "anaemia")
+// fr_to_en.set("anémie tumorale", "tumour anaemia")
+// fr_to_en.set("anévrisme aortique", "aortic aneurysm")
+// fr_to_en.set("anévrisme de l'artère cérébrale", "cerebral artery aneurysm")
+// fr_to_en.set("apnée du sommeil", "sleep apnea")
+// fr_to_en.set("arthrose", "osteoarthritis")
+// fr_to_en.set("Arthrose des articulations des doigts", "Arthritis of the joints of the fingers")
+// fr_to_en.set("arthrose et scoliose", "osteoarthritis and scoliosis")
+// fr_to_en.set("arythmies cardiaques", "cardiac arrhythmias")
+// fr_to_en.set("asthme", "asthma")
+fr_to_en.set("asthme allergique (pendant l'été)", "Allergic asthma (during the summer)")
+fr_to_en.set("asthme allergique pendant l'été", "Allergic asthma during the summer")
+fr_to_en.set("asthme bronchique", "bronchial asthma")
+fr_to_en.set("asthme bronchique allergique", "allergic bronchial asthma")
+fr_to_en.set("autonomie de la thyroïde", "thyroid autonomy")
+fr_to_en.set("bouffées de chaleur", "hot flushes")
+fr_to_en.set("bras lymphoedème", "lymphedema arm")
+fr_to_en.set("bronchite chronique", "Chronic bronchitis")
+fr_to_en.set("Cachexie dans la maladie tumorale", "Cachexia in tumour disease")
+fr_to_en.set("Carcinome du corps de l'utérus", "Carcinoma of the body of the uterus")
+// fr_to_en.set("Carcinome du côlon", "Colon carcinoma")
+// fr_to_en.set("cataracte des deux côtés", "cataracts on both sides")
+// fr_to_en.set("changement d'ongle", "Nagle change")
+// fr_to_en.set("changement de goût", "change of taste")
+// fr_to_en.set("Changement de poids", "Weight change")
+// fr_to_en.set("changements dégénératifs dans la colonne vertébrale", "degenerative changes in the spine")
+// fr_to_en.set("Cholecystolite récurrente", "Recurrent Cholecystolite")
+// fr_to_en.set("cholestase avec jaunisse", "cholestasis with jaundice")
+// fr_to_en.set("cholécystolithiase", "cholecystolithiase")
+// fr_to_en.set("Chute avec fracture des côtes", "Fall with rib fracture")
+// fr_to_en.set("cirrhose hépatique", "hepatic cirrhosis")
+
+var data = {
+	"source_language": "fr",
+	"target_language": "en",
+	"model_checkpoint": "Helsinki-NLP/opus-mt-fr-en",
+	"translation_history": [
+	],
+	"translations": [
+	]
+};
+
+fr_to_en.forEach((value, key) => {
+	data.translations.push([{
+				"source_text": key,
+				"target_text": '', // we can set value here too
+				"translation_status": 'Not Confirmed',
+				"action_type": "source upload by user",
+				"action_date": new Date().toISOString(),
+				"action_user": "???"
+			}]);
+});
+
+function translate() {
+	xhr = new XMLHttpRequest();
+    xhr.open('POST', '/translate/', true);
+    xhr.onreadystatechange = function () {
+        if (this.readyState === 4) {
+            // check HTTP status
+            response = JSON.parse(xhr.responseText);
+            console.log(response);
+			//xxx
+			data.translations.forEach((element, index) => {
+				var translationHistory = element; // DRY - this is target text changed
+				var translation = JSON.parse(JSON.stringify(translationHistory[translationHistory.length - 1]));
+				new_target_text = response[translation.source_text];
+				if (new_target_text != translation.target_text) {
+					translation.translation_status = 'Not Confirmed';
+					translation.target_text = new_target_text;
+					translation.action_type = 'target text updated by auto-translation';
+					translation.action_date = new Date().toISOString();
+					translationHistory.push(translation);
+				}
+			});
+			displayData(data);
+			//xxx		
+        }
+    };
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.setRequestHeader('x-api-key', 'test');
+    xhr.send(JSON.stringify({
+        source_language: document.getElementById('source_language').value,
+        target_language: document.getElementById('target_language').value,
+		source_texts: data.translations.map(e => e[e.length-1].source_text) 
+    }));
+}
+document.getElementById('translate').onclick = translate;
+
+function translationHeaderClick(index) {
+	$(`#translation-header-${index}`).toggleClass("open");
+	var content = $(`#translation-content-${index}`);
+	content.toggle(200)
+}
+
+function searchPubMed(what, index) {
+	var e = document.getElementById(`${what}-textarea-${index}`);
+	searchText = e.value.substring(e.selectionStart, e.selectionEnd);
+	if (!!!searchText) {
+		searchText = e.value;
+	}
+	// window.open(`https://pubmed.ncbi.nlm.nih.gov/?term=${searchText}&ac=no`, '_blank');
+	window.open(`https://pubmed.ncbi.nlm.nih.gov/?term=${searchText}`, '_blank');
+	// TODO: do better (o:
+}
+
+function getToggleTranslationStatusTitle(status) {
+	if ('Confirmed' == status) {
+		return 'Click to set the status of this translation back to "Not Confirmed"'; 
+	} else {
+		return 'Click to confirm this translation is good';
+	}
+}
+
+function toggleTranslationStatus(index) {
+	link = document.getElementById(`translation-status-link-${index}`);
+	link.innerHTML = 'Confirmed' == link.innerHTML ? 'Not Confirmed' : 'Confirmed';
+	link.title = getToggleTranslationStatusTitle(link.innerHTML);
+	var translationHistory = data.translations[index];
+	var translation = JSON.parse(JSON.stringify(translationHistory[translationHistory.length - 1]));
+	translation.translation_status = link.innerHTML;
+	translation.action_type = 'status updated by user';
+	translation.action_date = new Date().toISOString();
+	translationHistory.push(translation);
+}
+
+function sourceTextChanged(index) {
+	document.getElementById(`target-textarea-${index}`).value = '';
+	link = document.getElementById(`translation-status-link-${index}`);
+	link.innerHTML = 'Not Confirmed';
+	link.title = getToggleTranslationStatusTitle(link.innerHTML);
+	var translationHistory = data.translations[index];
+	var translation = JSON.parse(JSON.stringify(translationHistory[translationHistory.length - 1]));
+	translation.translation_status = link.innerHTML;
+	translation.source_text = document.getElementById(`source-textarea-${index}`).value;
+	translation.target_text = '';
+	translation.action_type = 'source text updated by user';
+	translation.action_date = new Date().toISOString();
+	translationHistory.push(translation);
+	document.getElementById(`translation-header-${index}`).innerHTML = `${translation.source_text}<br>${translation.target_text}&nbsp;`;
+}
+
+function targetTextChanged(index) {
+	link = document.getElementById(`translation-status-link-${index}`);
+	link.innerHTML = 'Not Confirmed';
+	link.title = getToggleTranslationStatusTitle(link.innerHTML);
+	var translationHistory = data.translations[index];
+	var translation = JSON.parse(JSON.stringify(translationHistory[translationHistory.length - 1]));
+	translation.translation_status = link.innerHTML;
+	translation.target_text = document.getElementById(`target-textarea-${index}`).value;
+	translation.action_type = 'target text updated by user';
+	translation.action_date = new Date().toISOString();
+	translationHistory.push(translation);
+	document.getElementById(`translation-header-${index}`).innerHTML = `${translation.source_text}<br>${translation.target_text}&nbsp;`;
+}
+
+function displayData(data) {
+	dataContainer = document.getElementById('data-container');
+	innerHTML = '';
+	data.translations.forEach((element, index) => {
+		translation = element[element.length - 1]
+		searchPubMedTitle = 'Search PubMed for this term (select some text to search for part of the term)';
+		// TODO: trim header text to ???
+		innerHTML += `
+			<hr>
+			<div>
+				<span class="header" onclick="translationHeaderClick(${index})" id="translation-header-${index}">
+					${translation.source_text}
+					<br>
+					${translation.target_text}&nbsp;
+				</span>
+				<a onclick="toggleTranslationStatus(${index})"
+					class="toggleTranslationStatusLink"
+					title="${getToggleTranslationStatusTitle(translation.translation_status)}"
+					id="translation-status-link-${index}">${translation.translation_status}</a>
+			</div>
+			<div class="translation-content" id="translation-content-${index}" style="display: none;"> 
+				<div>
+					<textarea id="source-textarea-${index}" 
+						onchange="sourceTextChanged(${index})">${translation.source_text}</textarea>
+					<a onclick="searchPubMed('source', ${index})" title="${searchPubMedTitle}">PubMed</a>
+				</div>
+				<div>
+					<textarea id="target-textarea-${index}"
+						onchange="targetTextChanged(${index})">${translation.target_text}</textarea>
+					<a onclick="searchPubMed('target', ${index})" title="${searchPubMedTitle}">PubMed</a>
+				</div>
+			</div>`;
+	});
+	dataContainer.innerHTML = innerHTML;
+}
+
+displayData(data);
+
+</script>
+</body>
+</html>

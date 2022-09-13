@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana, "Trebuchet MS", Arial, sans-serif;
+    min-height: 100vh; /*make the body take up all of the available viewport height - for drag and drop */
+}
+body.highlight {
+    background: rgba(40, 90, 40, 0.15);
+}
+textarea {
+    width: 75%;
+    font-size: 130%;
+}
+select {
+    font-size: 110%;
+}
+.header { 
+    cursor: pointer;
+}
+.header.open { 
+    color: gray;
+}
+.header:hover { 
+    color: #15c;
+    text-decoration: underline;
+}
+a {
+    color: #15c;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.toggleTranslationStatusLink {
+    float: right;
+}
+.inlineInstruction {
+    font-size: 80%; 
+    float: right; 
+    color: gray;
+}
+
+#loading-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    background-color: #000;
+    z-index: 999;
+    opacity: 0.5;
+}
+.loading-icon{ 
+    position: absolute;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid gray;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 25%;
+    z-index: 4;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

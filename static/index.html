@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Translation</title>
+	<link href="app.css" rel="stylesheet">
+</head>
+<body>
+
+<fieldset>
+	<legend><a id="translate" title="Click to run auto-translation ... this might take a while">Translate</a></legend>
+	<div id="translationOptions">
+		<select id="term_option">
+			<option>all terms</option><!-- TODO: this option does nothing -->
+			<option>terms with no translation</option>
+		</select>
+		<label for="source_language">from source language</label>
+		<select id="source_language">
+			<option>de</option>
+			<option>fr</option>
+		</select>
+		<label for="target_language">to target language</label>
+		<select id="target_language">
+			<option>en</option>
+		</select>
+	</div>
+</fieldset>
+
+<div id="data-container"></div>
+
+<hr>
+<div class="inlineInstruction">
+	Drag and drop a file (1 term per line) to load more terms to be translated.
+</div>
+
+<div id="loading-overlay">
+    <div class="loading-icon"></div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

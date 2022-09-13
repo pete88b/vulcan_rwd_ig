@@ -1,0 +1,9 @@
+name: vulcan_rwd_ig
+dependencies:
+  - pip=21.*
+  - python=3.7
+  - pip:
+    - fastcore==1.3.*
+    - nbdev==1.2.*
+    - jupyter
+    - fastapi[all]==0.75.*
