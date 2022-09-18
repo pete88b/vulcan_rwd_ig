@@ -1,0 +1,2228 @@
+{
+  "resourceType": "Bundle",
+  "id": "43ac46f4-92cb-4500-a07d-d6862f63ffa5",
+  "meta": {
+    "lastUpdated": "2022-09-16T15:40:19.407-04:00"
+  },
+  "type": "searchset",
+  "total": 390,
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://r4.smarthealthit.org/MedicationAdministration?_format=json&status=completed"
+    },
+    {
+      "relation": "next",
+      "url": "https://r4.smarthealthit.org?_getpages=43ac46f4-92cb-4500-a07d-d6862f63ffa5&_getpagesoffset=50&_count=50&_format=json&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578233",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578233",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/1ac8947d-038f-4cc7-81fa-a32e694187e8"
+        },
+        "context": {
+          "reference": "Encounter/578179"
+        },
+        "effectiveDateTime": "1970-09-24T17:14:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578230",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578230",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578179"
+        },
+        "effectiveDateTime": "1970-09-24T17:14:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579576",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579576",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579525"
+        },
+        "effectiveDateTime": "1972-03-04T13:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579579",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579579",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579525"
+        },
+        "effectiveDateTime": "1972-03-04T13:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578291",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578291",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578240"
+        },
+        "effectiveDateTime": "1970-10-16T18:44:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578294",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578294",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578240"
+        },
+        "effectiveDateTime": "1970-10-16T18:44:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577734",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577734",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577683"
+        },
+        "effectiveDateTime": "1970-03-18T02:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577737",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577737",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577683"
+        },
+        "effectiveDateTime": "1970-03-18T02:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/576438",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "576438",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/576387"
+        },
+        "effectiveDateTime": "1968-10-27T14:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/576441",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "576441",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/576387"
+        },
+        "effectiveDateTime": "1968-10-27T14:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579518",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579518",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579464"
+        },
+        "effectiveDateTime": "1972-02-07T10:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579515",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579515",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579464"
+        },
+        "effectiveDateTime": "1972-02-07T10:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/626343",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "626343",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-18T02:45:05.598-04:00"
+        },
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+              "code": "inpatient",
+              "display": "Inpatient"
+            }
+          ]
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "406474005",
+              "display": "Pollen"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f341c771-5aff-4858-9406-9d45e8a56246"
+        },
+        "effectivePeriod": {
+          "start": "2020-10-18T06:45:05.474Z",
+          "end": "2009-09-01T04:10:38.000+00:00"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "182678001",
+                "display": "Hyposensitization to allergens"
+              }
+            ]
+          }
+        ],
+        "dosage": {
+          "site": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "40983000",
+                "display": "Structure of upper extremity between shoulder and elbow"
+              }
+            ]
+          },
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "34206005",
+                "display": "Subcutaneous  use"
+              }
+            ]
+          },
+          "method": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422145002",
+                "display": "Inject"
+              }
+            ]
+          },
+          "dose": {
+            "value": 1.1,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/626347",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "626347",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-18T02:53:30.163-04:00"
+        },
+        "status": "completed",
+        "category": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+              "code": "inpatient",
+              "display": "Inpatient"
+            }
+          ]
+        },
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "406474005",
+              "display": "Pollen"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f341c771-5aff-4858-9406-9d45e8a56246"
+        },
+        "effectivePeriod": {
+          "start": "2020-10-18T06:53:30.065Z",
+          "end": "2009-09-01T04:10:38.000+00:00"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "182678001",
+                "display": "Hyposensitization to allergens"
+              }
+            ]
+          }
+        ],
+        "dosage": {
+          "site": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "40983000",
+                "display": "Structure of upper extremity between shoulder and elbow"
+              }
+            ]
+          },
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "34206005",
+                "display": "Subcutaneous  use"
+              }
+            ]
+          },
+          "method": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "422145002",
+                "display": "Inject"
+              }
+            ]
+          },
+          "dose": {
+            "value": 444,
+            "unit": "g/dL",
+            "system": "http://unitsofmeasure.org",
+            "code": "g/dL"
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/723325",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "723325",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:32:03.042-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "198440",
+              "display": "Acetaminophen 500 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/721415"
+        },
+        "context": {
+          "reference": "Encounter/722620"
+        },
+        "effectiveDateTime": "2020-03-09T12:20:06+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/723322",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "723322",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:32:03.042-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "2123111",
+              "display": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+            }
+          ],
+          "text": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+        },
+        "subject": {
+          "reference": "Patient/721415"
+        },
+        "context": {
+          "reference": "Encounter/722620"
+        },
+        "effectiveDateTime": "2020-03-09T12:20:06+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/722622"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 4.0
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/723328",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "723328",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:32:03.042-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854252",
+              "display": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/721415"
+        },
+        "context": {
+          "reference": "Encounter/722620"
+        },
+        "effectiveDateTime": "2020-03-19T12:20:06+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/722624"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 1.0
+          },
+          "rateQuantity": {
+            "value": 2
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/996065",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "996065",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-12-10T13:59:10.374-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854252",
+              "display": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/994437"
+        },
+        "context": {
+          "reference": "Encounter/995280"
+        },
+        "effectiveDateTime": "2020-04-02T06:13:22+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/995285"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 1.0
+          },
+          "rateQuantity": {
+            "value": 2
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/996062",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "996062",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-12-10T13:59:10.374-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "198440",
+              "display": "Acetaminophen 500 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/994437"
+        },
+        "context": {
+          "reference": "Encounter/995280"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/996056",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "996056",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-12-10T13:59:10.374-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854235",
+              "display": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/994437"
+        },
+        "context": {
+          "reference": "Encounter/995280"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/996059",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "996059",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-12-10T13:59:10.374-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "2123111",
+              "display": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+            }
+          ],
+          "text": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+        },
+        "subject": {
+          "reference": "Patient/994437"
+        },
+        "context": {
+          "reference": "Encounter/995280"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/995282"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 4.0
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1001834",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1001834",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-01-28T05:30:24.342-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "0069-2587-10",
+              "display": "Vancomycin Hydrochloride (VANCOMYCIN HYDROCHLORIDE)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/494743a2-fea5-4827-8f02-c2b91e4a4c9e"
+        },
+        "effectivePeriod": {
+          "start": "2020-01-06T10:20:00.000+00:00",
+          "end": "2020-01-06T11:20:00.000+00:00"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "255560000",
+                "display": "Intravenous"
+              }
+            ]
+          },
+          "dose": {
+            "value": 85,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 250,
+              "unit": "milliliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL"
+            },
+            "denominator": {
+              "value": 1,
+              "unit": "hour",
+              "system": "http://unitsofmeasure.org",
+              "code": "h"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1001831",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1001831",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-01-28T04:21:14.376-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "0069-2587-10",
+              "display": "Vancomycin Hydrochloride (VANCOMYCIN HYDROCHLORIDE)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/494743a2-fea5-4827-8f02-c2b91e4a4c9e"
+        },
+        "effectivePeriod": {
+          "start": "2020-01-06T10:20:00.000+00:00",
+          "end": "2020-01-06T11:20:00.000+00:00"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "255560000",
+                "display": "Intravenous"
+              }
+            ]
+          },
+          "dose": {
+            "value": 85,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 250,
+              "unit": "milliliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL"
+            },
+            "denominator": {
+              "value": 1,
+              "unit": "hour",
+              "system": "http://unitsofmeasure.org",
+              "code": "h"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1001832",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1001832",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-01-28T04:34:26.136-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "0069-2587-10",
+              "display": "Vancomycin Hydrochloride (VANCOMYCIN HYDROCHLORIDE)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/494743a2-fea5-4827-8f02-c2b91e4a4c9e"
+        },
+        "effectivePeriod": {
+          "start": "2020-01-06T10:20:00.000+00:00",
+          "end": "2020-01-06T11:20:00.000+00:00"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "255560000",
+                "display": "Intravenous"
+              }
+            ]
+          },
+          "dose": {
+            "value": 85,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 250,
+              "unit": "milliliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL"
+            },
+            "denominator": {
+              "value": 1,
+              "unit": "hour",
+              "system": "http://unitsofmeasure.org",
+              "code": "h"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1001833",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1001833",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-01-28T05:03:55.492-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/ndc",
+              "code": "0069-2587-10",
+              "display": "Vancomycin Hydrochloride (VANCOMYCIN HYDROCHLORIDE)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/494743a2-fea5-4827-8f02-c2b91e4a4c9e"
+        },
+        "effectivePeriod": {
+          "start": "2020-01-06T10:20:00.000+00:00",
+          "end": "2020-01-06T11:20:00.000+00:00"
+        },
+        "dosage": {
+          "route": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "255560000",
+                "display": "Intravenous"
+              }
+            ]
+          },
+          "dose": {
+            "value": 85,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "rateRatio": {
+            "numerator": {
+              "value": 250,
+              "unit": "milliliter",
+              "system": "http://unitsofmeasure.org",
+              "code": "mL"
+            },
+            "denominator": {
+              "value": 1,
+              "unit": "hour",
+              "system": "http://unitsofmeasure.org",
+              "code": "h"
+            }
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227154",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227154",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1740467",
+              "display": "2 ML Ondansetron 2 MG/ML Injection"
+            }
+          ],
+          "text": "2 ML Ondansetron 2 MG/ML Injection"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227169",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227169",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "73032",
+              "display": "Remifentanil"
+            }
+          ],
+          "text": "Remifentanil"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227166",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227166",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "200243",
+              "display": "sevoflurane 1000 MG/ML Inhalant Solution"
+            }
+          ],
+          "text": "sevoflurane 1000 MG/ML Inhalant Solution"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227160",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227160",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1808217",
+              "display": "100 ML Propofol 10 MG/ML Injection"
+            }
+          ],
+          "text": "100 ML Propofol 10 MG/ML Injection"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227163",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227163",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1234995",
+              "display": "Rocuronium bromide 10 MG/ML Injectable Solution"
+            }
+          ],
+          "text": "Rocuronium bromide 10 MG/ML Injectable Solution"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/1227157",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1227157",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-04-18T17:22:49.015-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "311700",
+              "display": "Midazolam 1 MG/ML Injectable Solution"
+            }
+          ],
+          "text": "Midazolam 1 MG/ML Injectable Solution"
+        },
+        "subject": {
+          "reference": "Patient/1226896"
+        },
+        "context": {
+          "reference": "Encounter/1227111"
+        },
+        "effectiveDateTime": "2009-09-28T15:15:16-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/b8ee51e4-fd86-d249-a0c0-939e6e1a9bdc",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "b8ee51e4-fd86-d249-a0c0-939e6e1a9bdc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-06-24T12:50:28.780-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "3498",
+              "display": "Diphenhydramine 25mg IM x1"
+            }
+          ],
+          "text": "Diphenhydramine 25mg IM x1"
+        },
+        "subject": {
+          "reference": "Patient/3781a2ca-0d79-33ca-dbbb-3ac857b4fcc2"
+        },
+        "context": {
+          "reference": "Encounter/7241ab22-d818-0178-4609-108befbabdf1"
+        },
+        "effectiveDateTime": "2014-02-16T17:37:25-05:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/8ed82cd2-1de3-ebd0-9f63-05684d2778ec",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "8ed82cd2-1de3-ebd0-9f63-05684d2778ec",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-06-24T12:45:19.417-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "3498",
+              "display": "Diphenhydramine 25mg IM x1"
+            }
+          ],
+          "text": "Diphenhydramine 25mg IM x1"
+        },
+        "subject": {
+          "reference": "Patient/1d1e0e36-5d02-8f7d-b02b-919fda953130"
+        },
+        "context": {
+          "reference": "Encounter/41ad941f-1f3a-addc-6f93-68e548a4f19f"
+        },
+        "effectiveDateTime": "2017-06-18T22:39:24-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/ee6c5d83-35c3-207f-abf5-128927e49af1",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "ee6c5d83-35c3-207f-abf5-128927e49af1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2021-06-24T12:48:11.642-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "3498",
+              "display": "Diphenhydramine 25mg IM x1"
+            }
+          ],
+          "text": "Diphenhydramine 25mg IM x1"
+        },
+        "subject": {
+          "reference": "Patient/82a8e5ad-0071-a5b1-8f5f-30e57c854959"
+        },
+        "context": {
+          "reference": "Encounter/5d6dc08e-66fe-2201-0451-2d7d0596f011"
+        },
+        "effectiveDateTime": "2015-07-12T03:21:25-04:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/725032",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "725032",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:35:04.313-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "198440",
+              "display": "Acetaminophen 500 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/723407"
+        },
+        "context": {
+          "reference": "Encounter/724250"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/725035",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "725035",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:35:04.313-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854252",
+              "display": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/723407"
+        },
+        "context": {
+          "reference": "Encounter/724250"
+        },
+        "effectiveDateTime": "2020-04-02T06:13:22+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/724255"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 1.0
+          },
+          "rateQuantity": {
+            "value": 2
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577795",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577795",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577744"
+        },
+        "effectiveDateTime": "1970-04-09T03:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/725029",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "725029",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:35:04.313-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "2123111",
+              "display": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+            }
+          ],
+          "text": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+        },
+        "subject": {
+          "reference": "Patient/723407"
+        },
+        "context": {
+          "reference": "Encounter/724250"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/724252"
+          }
+        ],
+        "dosage": {
+          "dose": {
+            "value": 4.0
+          }
+        }
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577798",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577798",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577744"
+        },
+        "effectiveDateTime": "1970-04-09T03:44:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/725026",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "725026",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-21T20:35:04.313-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854235",
+              "display": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/723407"
+        },
+        "context": {
+          "reference": "Encounter/724250"
+        },
+        "effectiveDateTime": "2020-03-24T06:13:22+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/576499",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "576499",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/576448"
+        },
+        "effectiveDateTime": "1968-11-22T17:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579457",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579457",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579403"
+        },
+        "effectiveDateTime": "1972-01-15T09:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/579454",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "579454",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/579403"
+        },
+        "effectiveDateTime": "1972-01-15T09:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578165",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578165",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578114"
+        },
+        "effectiveDateTime": "1970-09-02T16:44:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578168",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578168",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578114"
+        },
+        "effectiveDateTime": "1970-09-02T16:44:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577612",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577612",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577561"
+        },
+        "effectiveDateTime": "1970-01-30T00:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/577615",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "577615",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1734340",
+              "display": "Etoposide 100 MG Injection"
+            }
+          ],
+          "text": "Etoposide 100 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/577561"
+        },
+        "effectiveDateTime": "1970-01-30T00:14:01-05:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/791928",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "791928",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-26T02:26:23.866-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "854235",
+              "display": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+            }
+          ],
+          "text": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+        },
+        "subject": {
+          "reference": "Patient/790449"
+        },
+        "context": {
+          "reference": "Encounter/791439"
+        },
+        "effectiveDateTime": "2020-03-08T06:04:09+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/791931",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "791931",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-11-26T02:26:23.866-05:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "198440",
+              "display": "Acetaminophen 500 MG Oral Tablet"
+            }
+          ],
+          "text": "Acetaminophen 500 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "Patient/790449"
+        },
+        "context": {
+          "reference": "Encounter/791439"
+        },
+        "effectiveDateTime": "2020-03-08T06:04:09+08:00"
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    },
+    {
+      "fullUrl": "https://r4.smarthealthit.org/MedicationAdministration/578962",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "578962",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2020-10-05T22:51:23.402-04:00"
+        },
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+              "code": "1736854",
+              "display": "Cisplatin 50 MG Injection"
+            }
+          ],
+          "text": "Cisplatin 50 MG Injection"
+        },
+        "subject": {
+          "reference": "Patient/576285"
+        },
+        "context": {
+          "reference": "Encounter/578911"
+        },
+        "effectiveDateTime": "1971-07-06T18:14:01-04:00",
+        "reasonReference": [
+          {
+            "reference": "Condition/576320"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      },
+      "response": {
+        "status": "201 Created",
+        "etag": "W/\"1\""
+      }
+    }
+  ]
+}

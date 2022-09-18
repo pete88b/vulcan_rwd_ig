@@ -2,42 +2,54 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Translation</title>
+	<title>Vulcan RWD</title>
 	<link href="app.css" rel="stylesheet">
 </head>
 <body>
 
 <fieldset>
-	<legend><a id="translate" title="Click to run auto-translation ... this might take a while">Translate</a></legend>
+	<legend><a id="translate" title="Click to run auto-translation ... this might take a while">Cohort Building</a></legend>
 	<div id="translationOptions">
-		<select id="term_option">
-			<option>all terms</option><!-- TODO: this option does nothing -->
-			<option>terms with no translation</option>
-		</select>
-		<label for="source_language">from source language</label>
-		<select id="source_language">
-			<option>de</option>
-			<option>fr</option>
-		</select>
-		<label for="target_language">to target language</label>
-		<select id="target_language">
-			<option>en</option>
-		</select>
+		<h3>The patients for this study would have the following criteria:</h3>
+		<p>
+			female or male aged <input name="age" id="age" value="18" required> years or older
+		</p>
+		<p>
+			have a Encounter record representing a hospitalization with an initial diagnosis of 
+			<input name="diagnosis-label" id="diagnosis-label" value="Acute Coronary Syndrome" required>
+			where the patient was discharged alive some time between September 2020 to September 2021:
+			<ul>
+				<li>ACS is represented for this scenario one of these ICD 10 codes 
+					<input name="diagnosis-icd10" id="diagnosis-icd10" value="I20,I21,I22,I23,I24,I25" required>
+					(<input name="diagnosis-icd10-label" id="diagnosis-icd10-label" 
+						    value="I21 Acute myocardial infarction; I20-I25 Ischemic heart diseases; I24 Other acute ischemic heart diseases" 
+							required style="width: 650px;">)</li>
+				<li>the Encounter diagnosis will point to a Condition with one of those codes</li>
+				<li>the Encounter will have hospitalization information included</li>
+				<li>the Encounter will have hospitalization information included</li>
+				<li>the Encounter hospitalization discharge disposition code is not "exp" (expired)</li>
+			</ul>
+		</p>
+		<p>
+			have been given one of ticagrelor, prasugrel or clopidogrel after the date of diagnosis of ACS (as represented by the Condition or Encounter record found above)
+		</p>
+		<input name="fhir-base" id="fhir-base" value="https://fhir.rykpjsvemdtg.workload-prod-fhiraas.isccloud.io" required style="width: 400px;">
+		<a onclick="TODO" title="Search for patients meeting above criteria">Search</a>
 	</div>
 </fieldset>
 
 <div id="data-container"></div>
 
-<hr>
+<!-- <hr>
 <div class="inlineInstruction">
 	Drag and drop a file (1 term per line) to load more terms to be translated.
-</div>
+</div> -->
 
 <div id="loading-overlay">
     <div class="loading-icon"></div>
 </div>
 
-<script src="jquery.js"></script>
-<script src="app.js"></script>
+<!-- <script src="jquery.js"></script> -->
+<!-- <script src="app.js"></script> -->
 </body>
 </html>
