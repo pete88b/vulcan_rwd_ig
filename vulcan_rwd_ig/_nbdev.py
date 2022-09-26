@@ -6,7 +6,17 @@ index = {"get_valid_api_keys": "10_main.ipynb",
          "api_key_check": "10_main.ipynb",
          "TranslatePayload": "10_main.ipynb",
          "Translator": "10_main.ipynb",
-         "create_app": "10_main.ipynb"}
+         "create_app": "10_main.ipynb",
+         "DotPathDict": "00_core.ipynb",
+         "FhirClient": "00_core.ipynb",
+         "request_to_cache_file": "00_core.ipynb",
+         "CachedResponse": "00_core.ipynb",
+         "requests_get": "00_core.ipynb",
+         "get_as_raw_json": "00_core.ipynb",
+         "get_next_as_raw_json": "00_core.ipynb",
+         "get_all_entries": "00_core.ipynb",
+         "get_all_resources": "00_core.ipynb",
+         "get_by_reference": "00_core.ipynb"}
 
 modules = ["core.py",
            "main.py"]

@@ -1,0 +1,5 @@
+{
+  "http://ips.health/fhir/Patient?_id=fakeId": "fhirPatient-0",
+  "https://ips.health/fhir/Patient?_id=fakeId": "fhirPatient-1",
+  "https://ips.health/fhir/Patient?birthdate=le1996-09-01&gender=male%2Cfemale": "fhirPatient-2"
+}
