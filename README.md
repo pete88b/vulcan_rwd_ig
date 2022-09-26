@@ -4,33 +4,10 @@
 
 ## Quick project overview
 
-- `10_main.ipynb`
-    - TODO
+- `_rwd_ig_cohort_building.ipynb`
+    - Show how we can build a cohort by running FHIR queries with minimal client side processing
 - `00_core.ipynb`
     - TODO
-
-## chat with sergey
-
-- need to think about real life posibility of using FHIR to build cohorts
-    - need to be careful that we don't get sucked into spending all our time on feasibility
-- we have patient ID and we know which hospital etc it came from - prove capability by pulling data for specified patients
-    - FHIR middle layer (trinetex, ehr vendors etc) will enable cohort building etc
-    - make sure we have all of the FHIR domains - to prove that FHIR is doing a good job as a transport service
-        - for SDTM submission / typical FDA sponsor study
-- secondary is what are we using this data for?
-- ID management
-    - IP address of EHR data provider - now go get the data
-        - you can't find patient unless someone also gives you patient ID
-        - if we have study ID, some kind of recruitment service could resolve study ID to patients
-- use case for IPS is when someone is travelling abroad, IPS gives relevant clinical details to help treatment
-    - how do we pull IPS by patient ID?
-    - might be built around current - not full history that we need for research
-    - how much do we need to extend IPS?
-        - might we need an option to use non-IPS? possibly based on US core
-        
-## bring back
-
-how can sd tech build a fhir server of our own ...
 
 # Running locally
 
@@ -39,7 +16,6 @@ Note: See conda setup below
 The easiest way to get started is to run the app from the command line.
 
 ```
-SET X_API_KEYS=['test']
 conda activate vulcan_rwd_ig
 cd github\pete88b\vulcan_rwd_ig
 uvicorn app:app --reload

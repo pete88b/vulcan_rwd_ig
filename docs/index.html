@@ -32,8 +32,8 @@ nb_path: "index.ipynb"
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Quick-project-overview">Quick project overview<a class="anchor-link" href="#Quick-project-overview"> </a></h2><ul>
-<li><code>10_main.ipynb</code><ul>
-<li>TODO</li>
+<li><code>_rwd_ig_cohort_building.ipynb</code><ul>
+<li>Show how we can build a cohort by running FHIR queries with minimal client side processing</li>
 </ul>
 </li>
 <li><code>00_core.ipynb</code><ul>
@@ -47,49 +47,9 @@ nb_path: "index.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="chat-with-sergey">chat with sergey<a class="anchor-link" href="#chat-with-sergey"> </a></h2><ul>
-<li>need to think about real life posibility of using FHIR to build cohorts<ul>
-<li>need to be careful that we don't get sucked into spending all our time on feasibility</li>
-</ul>
-</li>
-<li>we have patient ID and we know which hospital etc it came from - prove capability by pulling data for specified patients<ul>
-<li>FHIR middle layer (trinetex, ehr vendors etc) will enable cohort building etc</li>
-<li>make sure we have all of the FHIR domains - to prove that FHIR is doing a good job as a transport service<ul>
-<li>for SDTM submission / typical FDA sponsor study</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>secondary is what are we using this data for?</li>
-<li>ID management<ul>
-<li>IP address of EHR data provider - now go get the data<ul>
-<li>you can't find patient unless someone also gives you patient ID</li>
-<li>if we have study ID, some kind of recruitment service could resolve study ID to patients</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>use case for IPS is when someone is travelling abroad, IPS gives relevant clinical details to help treatment<ul>
-<li>how do we pull IPS by patient ID?</li>
-<li>might be built around current - not full history that we need for research</li>
-<li>how much do we need to extend IPS?<ul>
-<li>might we need an option to use non-IPS? possibly based on US core</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="bring-back">bring back<a class="anchor-link" href="#bring-back"> </a></h2><p>how can sd tech build a fhir server of our own ...</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Running-locally">Running locally<a class="anchor-link" href="#Running-locally"> </a></h1><p>Note: See conda setup below</p>
 <p>The easiest way to get started is to run the app from the command line.</p>
-<pre><code>SET X_API_KEYS=['test']
-conda activate vulcan_rwd_ig
+<pre><code>conda activate vulcan_rwd_ig
 cd github\pete88b\vulcan_rwd_ig
 uvicorn app:app --reload
 </code></pre>
