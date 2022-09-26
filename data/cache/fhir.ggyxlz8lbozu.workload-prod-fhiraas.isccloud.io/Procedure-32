@@ -1,1 +1,1 @@
-{"resourceType":"Bundle","id":"b98bcf16-3ddf-11ed-a79b-02f861e3f62a","type":"searchset","timestamp":"2022-09-26T21:01:16Z","total":0,"link":[{"relation":"self","url":"https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Procedure?patient=1bbc2bc53ed277ac09507e6893743410"}]}
+{"resourceType":"Bundle","id":"7fbd6d80-3de4-11ed-a7d1-02f861e3f62a","type":"searchset","timestamp":"2022-09-26T21:34:04Z","total":0,"link":[{"relation":"self","url":"https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Procedure?patient=Patient%2F1bbc2bc53ed277ac09507e6893743410"}]}

@@ -16,7 +16,8 @@ index = {"get_valid_api_keys": "10_main.ipynb",
          "get_next_as_raw_json": "00_core.ipynb",
          "get_all_entries": "00_core.ipynb",
          "get_all_resources": "00_core.ipynb",
-         "get_by_reference": "00_core.ipynb"}
+         "get_by_reference": "00_core.ipynb",
+         "request_from_github": "00_core.ipynb"}
 
 modules = ["core.py",
            "main.py"]
