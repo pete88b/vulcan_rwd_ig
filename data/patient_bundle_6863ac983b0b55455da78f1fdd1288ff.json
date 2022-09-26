@@ -1,0 +1,3459 @@
+{
+  "resourceType": "Bundle",
+  "id": "b01ee3f8-9bf7-4d0e-945b-22de57a6c1a1",
+  "type": "collection",
+  "timestamp": "2022-09-26T10:00:36Z",
+  "entry": [
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Patient/6863ac983b0b55455da78f1fdd1288ff",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "6863ac983b0b55455da78f1fdd1288ff",
+        "extension": {
+          "extension": {
+            "url": "detailed",
+            "valueCoding": {
+              "system": "urn:oid:2.16.840.1.113883.6.238",
+              "code": "2106-3",
+              "display": "White"
+            }
+          },
+          "url": "https://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+        },
+        "gender": "male",
+        "birthDate": "1928-08-31",
+        "managingOrganization": {
+          "reference": "Organization/b4a528955b84f584974e92d025a75d1f"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5293",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5293",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "26929004",
+            "display": "Alzheimer's disease"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "2004-05-28",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5322",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5322",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "39394000",
+            "display": "Nocturia"
+          }
+        },
+        "bodySite": {
+          "text": "RENAL AND URINARY DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5364",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5364",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "416956002",
+            "display": "Polyarthritis"
+          }
+        },
+        "bodySite": {
+          "text": "MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5406",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5406",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "14760008",
+            "display": "Constipation"
+          }
+        },
+        "bodySite": {
+          "text": "GASTROINTESTINAL DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5449",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5449",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "77493009",
+            "display": "Pelvic fracture"
+          }
+        },
+        "bodySite": {
+          "text": "INJURY, POISONING AND PROCEDURAL COMPLICATIONS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "1983",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5488",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5488",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "4740000",
+            "display": "Herpes zoster"
+          }
+        },
+        "bodySite": {
+          "text": "INFECTIONS AND INFESTATIONS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "1986",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5527",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5527",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "95570007",
+            "display": "Nephrolithiasis"
+          }
+        },
+        "bodySite": {
+          "text": "RENAL AND URINARY DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "1998",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5566",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5566",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "8060009",
+            "display": "Denture wearer"
+          }
+        },
+        "bodySite": {
+          "text": "SOCIAL CIRCUMSTANCES"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5608",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5608",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "75088002",
+            "display": "Micturition urgency"
+          }
+        },
+        "bodySite": {
+          "text": "RENAL AND URINARY DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5650",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5650",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "9713002",
+            "display": "Prostatitis"
+          }
+        },
+        "bodySite": {
+          "text": "REPRODUCTIVE SYSTEM AND BREAST DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5693",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5693",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "26703600",
+            "display": "Dyspnoea"
+          }
+        },
+        "bodySite": {
+          "text": "RESPIRATORY, THORACIC AND MEDIASTINAL DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "2011",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5732",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5732",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "404640003",
+            "display": "Dizziness"
+          }
+        },
+        "bodySite": {
+          "text": "NERVOUS SYSTEM DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "2011",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5771",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5771",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "416956002",
+            "display": "Polyarthritis"
+          }
+        },
+        "bodySite": {
+          "text": "MUSCULOSKELETAL AND CONNECTIVE TISSUE DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5813",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5813",
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "173422009",
+            "display": "Tonsillectomy"
+          }
+        },
+        "bodySite": {
+          "text": "SURGICAL AND MEDICAL PROCEDURES"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "onsetDateTime": "1934",
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Condition/d1e5852",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d1e5852",
+        "severity": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "255604002",
+            "display": "Mild"
+          }
+        },
+        "code": {
+          "coding": {
+            "system": "https://snomed.info/sct",
+            "code": "38101003",
+            "display": "Hypermetropia"
+          }
+        },
+        "bodySite": {
+          "text": "EYE DISORDERS"
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "recordedDate": "2012-11-23",
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "c1971a69c748f24695a4f2bfd2ca157c",
+        "status": "active",
+        "intent": "order",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "instantiatesCanonical": "ActivityDefinition/H2Q-MC-LZZT-Placebo-TTS-Admin",
+        "dosageInstruction": {
+          "route": {
+            "coding": {
+              "code": "45890007"
+            },
+            "text": "Transdermal route"
+          },
+          "doseAndRate": {
+            "type": {
+              "text": "ordered"
+            },
+            "doseQuantity": {
+              "value": 1,
+              "unit": "TPATCH",
+              "system": "https://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/c1971a69c748f24695a4f2bfd2ca157c",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "c1971a69c748f24695a4f2bfd2ca157c",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-11-23T00:00:00+00:00",
+          "end": "2012-11-23T12:00:00+00:00"
+        },
+        "request": {
+          "reference": "MedicationRequest/c1971a69c748f24695a4f2bfd2ca157c"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/adbaa8eb831bfe74608d1e897cd2830d",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "adbaa8eb831bfe74608d1e897cd2830d",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-11-30T08:08:00+00:00",
+          "end": "2012-11-30T20:08:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/dca1aeb94d663fbe606f7d28a1261ee1",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "dca1aeb94d663fbe606f7d28a1261ee1",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-01T08:19:00+00:00",
+          "end": "2012-12-01T20:19:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/a88c0ae46025408e97c66c10874859f7",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "a88c0ae46025408e97c66c10874859f7",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-02T08:55:00+00:00",
+          "end": "2012-12-02T20:55:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/642d4fa2a430ac8a234a99d25c436920",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "642d4fa2a430ac8a234a99d25c436920",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-03T08:18:00+00:00",
+          "end": "2012-12-03T20:18:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/fc0e4a3675a7e5dca9362fc33c5bcef8",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "fc0e4a3675a7e5dca9362fc33c5bcef8",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-04T08:15:00+00:00",
+          "end": "2012-12-04T20:15:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/92d71322710f5a030160e49b7398797a",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "92d71322710f5a030160e49b7398797a",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-05T08:49:00+00:00",
+          "end": "2012-12-05T20:49:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/6f14876f3f72a952ebe186fa06b50466",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "6f14876f3f72a952ebe186fa06b50466",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-06T08:28:00+00:00",
+          "end": "2012-12-06T20:28:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/d787a4f010d8e8c06d498d02d14cf6a7",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "d787a4f010d8e8c06d498d02d14cf6a7",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-07T08:13:00+00:00",
+          "end": "2012-12-07T20:13:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/2cd9fabd910fa29277c44e9ba29eb1f8",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "2cd9fabd910fa29277c44e9ba29eb1f8",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-08T08:04:00+00:00",
+          "end": "2012-12-08T20:04:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/c724188388c6a391a2d099ad197f5f97",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "c724188388c6a391a2d099ad197f5f97",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-09T08:37:00+00:00",
+          "end": "2012-12-09T20:37:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/12c334f31bd348210fc99f5e77bc988b",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "12c334f31bd348210fc99f5e77bc988b",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-10T08:29:00+00:00",
+          "end": "2012-12-10T20:29:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/64b918323a135892ace91d63a368e2f9",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "64b918323a135892ace91d63a368e2f9",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-11T08:26:00+00:00",
+          "end": "2012-12-11T20:26:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/fbb51e0a878fee95b51f0749c492ba82",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "fbb51e0a878fee95b51f0749c492ba82",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "32968",
+            "display": "clopidogrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-12T08:42:00+00:00",
+          "end": "2012-12-12T20:42:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/0e58455ce9832a14a445f79f2b49c218",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "0e58455ce9832a14a445f79f2b49c218",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-14T08:29:00+00:00",
+          "end": "2012-12-14T20:29:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/2a3f8ce08ca45f3efb9f0b392d5c4001",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "2a3f8ce08ca45f3efb9f0b392d5c4001",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-15T08:53:00+00:00",
+          "end": "2012-12-15T20:53:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/7f071c1cbd5f1c2a07e0fe61ca2c7ca3",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "7f071c1cbd5f1c2a07e0fe61ca2c7ca3",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-16T09:00:00+00:00",
+          "end": "2012-12-16T21:00:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/be5e85bc01889d00b3e6ccb4c39ccb49",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "be5e85bc01889d00b3e6ccb4c39ccb49",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-17T08:48:00+00:00",
+          "end": "2012-12-17T20:48:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/9efd896f552b44fb85d83ef3ca9132ff",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "9efd896f552b44fb85d83ef3ca9132ff",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-18T08:38:00+00:00",
+          "end": "2012-12-18T20:38:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/cb8a0a3dcffd53b3e41110167b478fe3",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "cb8a0a3dcffd53b3e41110167b478fe3",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-19T08:14:00+00:00",
+          "end": "2012-12-19T20:14:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/cfeab1733b5569f94fd9dcff25f0cc6b",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "cfeab1733b5569f94fd9dcff25f0cc6b",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-20T08:48:00+00:00",
+          "end": "2012-12-20T20:48:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/b317f9f237d39f4ac430848dcbc096e1",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "b317f9f237d39f4ac430848dcbc096e1",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-21T08:42:00+00:00",
+          "end": "2012-12-21T20:42:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/85980ec13dd6ec6afb326def7e34ff8e",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "85980ec13dd6ec6afb326def7e34ff8e",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-22T08:53:00+00:00",
+          "end": "2012-12-22T20:53:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/7cd7b990cd98cd09a98bc5827555f674",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "7cd7b990cd98cd09a98bc5827555f674",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-23T08:16:00+00:00",
+          "end": "2012-12-23T20:16:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/998293c040fdeaff2bcae6e24e359082",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "998293c040fdeaff2bcae6e24e359082",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-24T08:58:00+00:00",
+          "end": "2012-12-24T20:58:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/3149380b2e243f2a8593d0abe4c175bc",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "3149380b2e243f2a8593d0abe4c175bc",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-25T08:27:00+00:00",
+          "end": "2012-12-25T20:27:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/db3f2ba39abffef67fd97f1ded3e7a24",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "db3f2ba39abffef67fd97f1ded3e7a24",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-26T08:18:00+00:00",
+          "end": "2012-12-26T20:18:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/2b3fdcecf1fcd71c5f96d36431d75bb8",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "2b3fdcecf1fcd71c5f96d36431d75bb8",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-27T08:38:00+00:00",
+          "end": "2012-12-27T20:38:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/ad29dd81235eda982943601de0ccd5b7",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "ad29dd81235eda982943601de0ccd5b7",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-28T08:00:00+00:00",
+          "end": "2012-12-28T20:00:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/51e3ac0a9048e68ec7b1b1449d675be4",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "51e3ac0a9048e68ec7b1b1449d675be4",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-29T08:29:00+00:00",
+          "end": "2012-12-29T20:29:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/0acd2c3c082d1be3129dbfd79a98bf65",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "0acd2c3c082d1be3129dbfd79a98bf65",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-30T08:32:00+00:00",
+          "end": "2012-12-30T20:32:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/66012792c1fc1ed285d38f8869b08e60",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "66012792c1fc1ed285d38f8869b08e60",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-12-31T08:27:00+00:00",
+          "end": "2012-12-31T20:27:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/5e863b0b92521cca4e7e1c9ed6ed709c",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "5e863b0b92521cca4e7e1c9ed6ed709c",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-01T08:26:00+00:00",
+          "end": "2013-01-01T20:26:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:07Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/79dae5a34dc9102252eda24cba36195d",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "79dae5a34dc9102252eda24cba36195d",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-02T08:34:00+00:00",
+          "end": "2013-01-02T20:34:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/65aa4ac6dcd6da238284e3d8bfeb7f3c",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "65aa4ac6dcd6da238284e3d8bfeb7f3c",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-03T08:45:00+00:00",
+          "end": "2013-01-03T20:45:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/f71e30d9e476612c2874549bd6fe624d",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "f71e30d9e476612c2874549bd6fe624d",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-04T08:24:00+00:00",
+          "end": "2013-01-04T20:24:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/40a1c634b95d5a2544d092d5f21e25e2",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "40a1c634b95d5a2544d092d5f21e25e2",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-05T08:01:00+00:00",
+          "end": "2013-01-05T20:01:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/244d20c9e7f109f7f69d543b3e567c0b",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "244d20c9e7f109f7f69d543b3e567c0b",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-06T08:30:00+00:00",
+          "end": "2013-01-06T20:30:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/ce94b2d01f52dafeb2735d2dda91c2a0",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "ce94b2d01f52dafeb2735d2dda91c2a0",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-07T08:16:00+00:00",
+          "end": "2013-01-07T20:16:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/90249df6894454752e0021702afb52c6",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "90249df6894454752e0021702afb52c6",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-08T08:39:00+00:00",
+          "end": "2013-01-08T20:39:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/1a3696e770957a0db06eaaebd670d4cb",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "1a3696e770957a0db06eaaebd670d4cb",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-09T08:59:00+00:00",
+          "end": "2013-01-09T20:59:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/beba79dacf6820bc45cbb4b84125305d",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "beba79dacf6820bc45cbb4b84125305d",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-10T08:13:00+00:00",
+          "end": "2013-01-10T20:13:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/9e92449e6dea36f657dfb0d140508724",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "9e92449e6dea36f657dfb0d140508724",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-11T08:29:00+00:00",
+          "end": "2013-01-11T20:29:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/9e38bac4a995e745b0feea38ad70ed2c",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "9e38bac4a995e745b0feea38ad70ed2c",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-12T08:22:00+00:00",
+          "end": "2013-01-12T20:22:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/260a4d47d9e8c47da48c2ce50359f773",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "260a4d47d9e8c47da48c2ce50359f773",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-13T08:10:00+00:00",
+          "end": "2013-01-13T20:10:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/5255b9035d9eea8ffc687d034fbb1a94",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "5255b9035d9eea8ffc687d034fbb1a94",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-14T08:49:00+00:00",
+          "end": "2013-01-14T20:49:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/95c323261963d94e2ee359dd586a8763",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "95c323261963d94e2ee359dd586a8763",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-15T09:00:00+00:00",
+          "end": "2013-01-15T21:00:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/3a1499fcaab553981df30d2e3805ad81",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "3a1499fcaab553981df30d2e3805ad81",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-16T08:37:00+00:00",
+          "end": "2013-01-16T20:37:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/58c43319f91664a2045c7cdc2be8fc48",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "58c43319f91664a2045c7cdc2be8fc48",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-17T08:09:00+00:00",
+          "end": "2013-01-17T20:09:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/c2f9d93643b256eced9e9bee7233b2f5",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "c2f9d93643b256eced9e9bee7233b2f5",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-18T08:40:00+00:00",
+          "end": "2013-01-18T20:40:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/ed1148bb4911142af17c5bb2652c0d7b",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "ed1148bb4911142af17c5bb2652c0d7b",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-19T08:53:00+00:00",
+          "end": "2013-01-19T20:53:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/740c38bd52ceacd68557cf8e66de1329",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "740c38bd52ceacd68557cf8e66de1329",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-20T08:08:00+00:00",
+          "end": "2013-01-20T20:08:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/b4a713ae28e3cfb0bb3dab09acdf11fb",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "b4a713ae28e3cfb0bb3dab09acdf11fb",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-21T08:37:00+00:00",
+          "end": "2013-01-21T20:37:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration/eff166503b648c6b10bfb496ca81c3dc",
+      "resource": {
+        "resourceType": "MedicationAdministration",
+        "id": "eff166503b648c6b10bfb496ca81c3dc",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "613391",
+            "display": "prasurgrel"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-22T08:03:00+00:00",
+          "end": "2013-01-22T20:03:00+00:00"
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:08Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13317",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13317",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13356",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13356",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13395",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13395",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13435",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13435",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13474",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13474",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13513",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13513",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13552",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13552",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13591",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13591",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13630",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13630",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13668",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13668",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2011"
+        },
+        "dosage": {
+          "text": "1 TABLET ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "428673006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13707",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13707",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "211874",
+            "display": "ASPIRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-04-29"
+        },
+        "dosage": {
+          "text": "80 mg ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 80,
+              "system": "https://unitsofmeasure.org",
+              "code": "mg"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13751",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13751",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "217091",
+            "display": "FEOSOL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-04-29"
+        },
+        "dosage": {
+          "text": "325 mg ORAL BID",
+          "timing": {
+            "repeat": {
+              "frequency": 2,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 325,
+              "system": "https://unitsofmeasure.org",
+              "code": "mg"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13795",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13795",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "370646",
+            "display": "HYDROCORTISONE- TOPICAL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-11"
+        },
+        "dosage": {
+          "text": "1 VIAL TOPICAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "6064005",
+              "display": "topical"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "415818006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13837",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13837",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "370646",
+            "display": "HYDROCORTISONE- TOPICAL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-11"
+        },
+        "dosage": {
+          "text": "1 VIAL TOPICAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "6064005",
+              "display": "topical"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "415818006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13876",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13876",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "370646",
+            "display": "HYDROCORTISONE- TOPICAL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-01-11"
+        },
+        "dosage": {
+          "text": "1 VIAL TOPICAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "6064005",
+              "display": "topical"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://snomed.info/sct",
+              "code": "415818006"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13919",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13919",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "235224",
+            "display": "HYTRIN"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-04-19",
+          "end": "2013-05-14"
+        },
+        "dosage": {
+          "text": "2 mg ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 2,
+              "system": "https://unitsofmeasure.org",
+              "code": "mg"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e13965",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e13965",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14004",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14004",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14043",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14043",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14082",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14082",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14121",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14121",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14161",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14161",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14200",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14200",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14239",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14239",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14278",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14278",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14315",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14315",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "6802",
+            "display": "METAMUCIL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2012-08"
+        },
+        "dosage": {
+          "text": "1 Tbsp ORAL PRN",
+          "asNeededBoolean": true,
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 1,
+              "system": "https://unitsofmeasure.org",
+              "code": "[tbs_us]"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement/d1e14354",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "d1e14354",
+        "status": "completed",
+        "medicationCodeableConcept": {
+          "coding": {
+            "system": "https://www.nlm.nih.gov/research/umls/rxnorm",
+            "code": "203333",
+            "display": "PRAVACHOL"
+          }
+        },
+        "subject": {
+          "reference": "Patient/6863ac983b0b55455da78f1fdd1288ff"
+        },
+        "effectivePeriod": {
+          "start": "2013-05-08"
+        },
+        "dosage": {
+          "text": "20 mg ORAL QD",
+          "timing": {
+            "repeat": {
+              "frequency": 1,
+              "period": 1,
+              "periodUnit": "d"
+            }
+          },
+          "route": {
+            "coding": {
+              "system": "https://snomed.info/ct",
+              "code": "26643006",
+              "display": "oral"
+            }
+          },
+          "doseAndRate": {
+            "doseQuantity": {
+              "value": 20,
+              "system": "https://unitsofmeasure.org",
+              "code": "mg"
+            }
+          }
+        },
+        "meta": {
+          "lastUpdated": "2022-09-19T14:48:06Z",
+          "versionId": "1"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
