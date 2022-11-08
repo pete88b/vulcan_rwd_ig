@@ -16,21 +16,32 @@
 		</p>
 		<p>
 			have a Encounter record representing a hospitalization with an initial diagnosis of 
-			<input name="diagnosis-label" id="diagnosis-label" value="Acute Coronary Syndrome" required>
+			<input name="diagnosis-label" id="diagnosis-label" value="Acute Coronary Syndrome" required
+			       title="high level diagnosis">
 			where the patient was discharged alive some time between September 2020 to September 2021:
+			<h1>TODO: param for discharge date</h1>
 			<ul>
 				<li>ACS is represented for this scenario one of these ICD 10 codes 
-					<input name="diagnosis-icd10" id="diagnosis-icd10" value="I20,I21,I22,I23,I24,I25" required>
+					<input name="diagnosis-icd10" id="diagnosis-icd10" value="I20, I21, I22, I23, I24, I25"
+					       required label="ICD10 codes for diagnoses">
 					(<input name="diagnosis-icd10-label" id="diagnosis-icd10-label" 
 						    value="I21 Acute myocardial infarction; I20-I25 Ischemic heart diseases; I24 Other acute ischemic heart diseases" 
-							required style="width: 650px;">)</li>
+							required style="width: 650px;" title="readable label for diagnoses">)</li>
 				<li>the Encounter diagnosis will point to a Condition with one of those codes</li>
 				<li>the Encounter will have hospitalization information included</li>
 				<li>the Encounter hospitalization discharge disposition code is not "exp" (expired)</li>
 			</ul>
 		</p>
 		<p>
-			have been given one of ticagrelor, prasugrel or clopidogrel after the date of diagnosis of ACS (as represented by the Condition or Encounter record found above)
+			have been given one of 
+			<input name="medication-rxnorm" id="medication-rxnorm" 
+				   value="1116632, 613391, 32968, 687667, 153658" 
+				   required style="width: 300px;" title="rxnorm codes for medications">
+			<br>
+			(<input name="medication-rxnorm-label" id="medication-rxnorm-label" 
+				    value="ticagrelor, prasugrel or clopidogrel" 
+					required style="width: 300px;" title="readable label for medication[s]">)</li> after the date of diagnosis
+			(as represented by the Condition or Encounter record found above)
 		</p>
 		<input name="fhir-base" id="fhir-base" value="https://fhir.rykpjsvemdtg.workload-prod-fhiraas.isccloud.io" required style="width: 400px;">
 		<a onclick="TODO" title="Search for patients meeting above criteria">Search</a>

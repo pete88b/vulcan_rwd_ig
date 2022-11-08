@@ -1,0 +1,31 @@
+{
+  "resourceType": "Medication",
+  "id": "9ad9c51a-af38-46b5-b22c-23aa92818e58",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2022-09-27T15:22:14.627+00:00",
+    "source": "#gSRsD1xCVLXggqVK"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> cilazapril 500 microgram tablet, 90 </div></div>"
+  },
+  "code": {
+    "coding": [ {
+      "system": "http://nzmt.org.nz",
+      "code": "31099751000116106",
+      "display": "cilazapril 500 microgram tablet, 90"
+    }, {
+      "system": "http://snomed.info/sct",
+      "code": "318913001",
+      "display": "Product containing cilazapril (medicinal product)"
+    } ]
+  },
+  "form": {
+    "coding": [ {
+      "system": "http://snomed.info/sct",
+      "code": "385055001",
+      "display": "tablet"
+    } ]
+  }
+}

@@ -1,0 +1,918 @@
+{
+  "resourceType": "Bundle",
+  "id": "e3b2b302-7576-4499-99c2-cb2b51348e73",
+  "meta": {
+    "lastUpdated": "2022-11-08T10:52:27.892+00:00"
+  },
+  "type": "searchset",
+  "total": 80,
+  "link": [ {
+    "relation": "self",
+    "url": "http://ips.health:8080/fhir?_getpages=e3b2b302-7576-4499-99c2-cb2b51348e73&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+  }, {
+    "relation": "next",
+    "url": "http://ips.health:8080/fhir?_getpages=e3b2b302-7576-4499-99c2-cb2b51348e73&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+  }, {
+    "relation": "previous",
+    "url": "http://ips.health:8080/fhir?_getpages=e3b2b302-7576-4499-99c2-cb2b51348e73&_getpagesoffset=0&_count=20&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/1d2d074a-236a-4440-bd92-3cec51e1553e",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "1d2d074a-236a-4440-bd92-3cec51e1553e",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:20.838+00:00",
+        "source": "#Pt8QLG32KRw8SgJW"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26484-6",
+          "display": "Monocytes [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2022-01-10T16:05:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.4,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "0.2-1.0"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/fcf4456b-9fb9-4855-9de1-5ec7e46d3818",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "fcf4456b-9fb9-4855-9de1-5ec7e46d3818",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.003+00:00",
+        "source": "#fAVBI9KOiTf0hrji"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "text": "4070 (ESR)"
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2022-01-10T16:05:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 10,
+        "unit": "mm/h",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm/h"
+      },
+      "referenceRange": [ {
+        "text": "0-15"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/5b2fa42d-6249-4d72-b159-8b1983555272",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5b2fa42d-6249-4d72-b159-8b1983555272",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.182+00:00",
+        "source": "#fXJdtNSjWMmcGvL4"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "2157-6",
+          "display": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 37,
+        "unit": "U/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "U/L"
+      },
+      "referenceRange": [ {
+        "text": "0-220"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/68b2b9e6-f17d-443f-84b8-9c379489f862",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "68b2b9e6-f17d-443f-84b8-9c379489f862",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.363+00:00",
+        "source": "#NZwvW4lCbYUyZrdr"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14933-6",
+          "display": "Urate [Moles/volume] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-12-21T18:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.39,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "note": [ {
+        "text": "The urate target level for gout management is <0.36 mmol/L"
+      }, {
+        "text": "L"
+      } ],
+      "referenceRange": [ {
+        "text": "0.23-0.42"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/524cfa36-6836-4636-a9b9-52c39bd2b5f8",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "524cfa36-6836-4636-a9b9-52c39bd2b5f8",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.527+00:00",
+        "source": "#PJFWAr22ioo0HFS3"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "20570-8",
+          "display": "Hematocrit [Volume Fraction] of Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.42,
+        "unit": "L/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "L/L"
+      },
+      "referenceRange": [ {
+        "text": "0.40-0.52"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/ead938fd-6d66-42bb-ad07-0c7746539c1d",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "ead938fd-6d66-42bb-ad07-0c7746539c1d",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.697+00:00",
+        "source": "#oRbKDrgZ4Fm114zj"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "718-7",
+          "display": "Hemoglobin [Mass/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 142,
+        "unit": "g/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "g/L"
+      },
+      "referenceRange": [ {
+        "text": "130-175"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/f96ea5ae-c352-4f95-af35-e05401a9609d",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f96ea5ae-c352-4f95-af35-e05401a9609d",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:21.863+00:00",
+        "source": "#LaJnVD6U4f6yMMti"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "30449-3",
+          "display": "Neutrophils.hypersegmented [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 8.6,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "interpretation": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "H",
+          "display": "High"
+        } ]
+      } ],
+      "referenceRange": [ {
+        "text": "1.9-7.5"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/70d81147-e56d-4d04-bd16-23d182b19a9c",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "70d81147-e56d-4d04-bd16-23d182b19a9c",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.024+00:00",
+        "source": "#sW5r8o6cttudZ94R"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "text": "4070 (ESR)"
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 22,
+        "unit": "mm/h",
+        "system": "http://unitsofmeasure.org",
+        "code": "mm/h"
+      },
+      "interpretation": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "H",
+          "display": "High"
+        } ]
+      } ],
+      "referenceRange": [ {
+        "text": "0-15"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/5105719f-faf9-4d24-a316-d2b07cfb0c3a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5105719f-faf9-4d24-a316-d2b07cfb0c3a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.202+00:00",
+        "source": "#ZiWvkthbEzOyj2du"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "28539-5",
+          "display": "MCH [Entitic mass]"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 31,
+        "unit": "pg",
+        "system": "http://unitsofmeasure.org",
+        "code": "pg"
+      },
+      "referenceRange": [ {
+        "text": "27-33"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/a1c8cfdb-833d-48c3-b5b0-626e9ed60788",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "a1c8cfdb-833d-48c3-b5b0-626e9ed60788",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.382+00:00",
+        "source": "#6KJw3BeD2ROnZbOx"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26444-0",
+          "display": "Basophils [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.1,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "0-0.2"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/2b327d60-a6ea-4444-b2a0-8d95bd7c72af",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "2b327d60-a6ea-4444-b2a0-8d95bd7c72af",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.557+00:00",
+        "source": "#IukSVZalhw6Fpzc1"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26484-6",
+          "display": "Monocytes [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.3,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "0.2-1.0"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/eebf7882-8255-4639-91df-6c597b519a70",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "eebf7882-8255-4639-91df-6c597b519a70",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.727+00:00",
+        "source": "#oPn3Xyc2tF1PIwpy"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26515-7",
+          "display": "Platelets [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 240,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "150-400"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/9ada9330-1547-46d3-8d04-5daf81963929",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "9ada9330-1547-46d3-8d04-5daf81963929",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:22.912+00:00",
+        "source": "#rMZhkkvU2eomHbB9"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26474-7",
+          "display": "Lymphocytes [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.9,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "interpretation": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "code": "L",
+          "display": "Low"
+        } ]
+      } ],
+      "referenceRange": [ {
+        "text": "1.0-4.0"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/f4e07397-c03d-4069-984b-992b2e24bb05",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "f4e07397-c03d-4069-984b-992b2e24bb05",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.087+00:00",
+        "source": "#N9UYKUPYwu00Ge5u"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26449-9",
+          "display": "Eosinophils [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.1,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "0.0-0.5"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/fb42d91d-219d-45c6-ba68-2c02837b6655",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "fb42d91d-219d-45c6-ba68-2c02837b6655",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.267+00:00",
+        "source": "#SRlLd79VfdTNC9EE"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "30428-7",
+          "display": "MCV [Entitic volume]"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 91,
+        "unit": "fL",
+        "system": "http://unitsofmeasure.org",
+        "code": "fL"
+      },
+      "referenceRange": [ {
+        "text": "80-99"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/fbf52f98-72b3-4e4f-b425-19948b01958c",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "fbf52f98-72b3-4e4f-b425-19948b01958c",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.447+00:00",
+        "source": "#oxEkV3XE5208EyRm"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "26464-8",
+          "display": "Leukocytes [#/volume] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 9.9,
+        "unit": "10*9/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "10*9/L"
+      },
+      "referenceRange": [ {
+        "text": "4.0-11.0"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/62c5742b-ddfe-430c-a3b3-9f49eca6c2dc",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "62c5742b-ddfe-430c-a3b3-9f49eca6c2dc",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.622+00:00",
+        "source": "#Ze5hdXrA0q6y9tOu"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "2951-2",
+          "display": "Sodium [Moles/volume] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 140,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "referenceRange": [ {
+        "text": "135-145"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/8d4abbab-ee55-4004-994e-cecb00624be5",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "8d4abbab-ee55-4004-994e-cecb00624be5",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.804+00:00",
+        "source": "#DQP2wnePwJZF6Wog"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "62238-1",
+          "display": "Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (CKD-EPI)"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 90,
+        "unit": "mL/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "mL/min"
+      },
+      "referenceRange": [ {
+        "text": ">60"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/60e52764-49ae-454e-84a8-480e171c5cf4",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "60e52764-49ae-454e-84a8-480e171c5cf4",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:23.987+00:00",
+        "source": "#sTKP7gNZnsN2QxXT"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "2823-3",
+          "display": "Potassium [Moles/volume] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 4.5,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "referenceRange": [ {
+        "text": "3.5-5.2"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Observation/080806f2-a4c4-47bb-9871-df38dee2f3df",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "080806f2-a4c4-47bb-9871-df38dee2f3df",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:24.167+00:00",
+        "source": "#HQ1yCs2pggkW2KRL"
+      },
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "14933-6",
+          "display": "Urate [Moles/volume] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-07-09T19:06:00+00:00",
+      "performer": [ {
+        "reference": "PractitionerRole/8878f536-536f-4964-9b3f-bbd841862a14"
+      } ],
+      "valueQuantity": {
+        "value": 0.41,
+        "unit": "mmol/L",
+        "system": "http://unitsofmeasure.org",
+        "code": "mmol/L"
+      },
+      "referenceRange": [ {
+        "text": "0.23-0.42"
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "resourceType": "Bundle",
+  "id": "8aa019e2-a75a-4966-a1eb-fcda6809cb41",
+  "meta": {
+    "lastUpdated": "2022-11-08T15:33:09.047+00:00"
+  },
+  "type": "searchset",
+  "total": 1,
+  "link": [ {
+    "relation": "self",
+    "url": "http://ips.health:8080/fhir/MedicationStatement?medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://ips.health:8080/fhir/MedicationStatement/1368a5ba-644d-44cd-8a5b-eae138d7047a",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "1368a5ba-644d-44cd-8a5b-eae138d7047a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:47.372+00:00",
+        "source": "#0GPrPkmJ1EEG3ziH"
+      },
+      "status": "active",
+      "medicationReference": {
+        "reference": "Medication/8d85a90a-833e-4869-b4a7-b7b26c35880c"
+      },
+      "subject": {
+        "reference": "Patient/f15d2419-fbff-464a-826d-0afe8f095771"
+      },
+      "effectiveDateTime": "2021-12-17",
+      "informationSource": {
+        "reference": "Organization/90862041-4bfd-45d4-b51a-beaedcd5a012"
+      },
+      "dosage": [ {
+        "text": "Take 4mg daily for 1/12 then reduce by 1mg by 1 month",
+        "route": {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+            "code": "PO",
+            "display": "Swallow, oral"
+          } ]
+        },
+        "doseAndRate": [ {
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+              "code": "ordered",
+              "display": "Ordered"
+            } ]
+          },
+          "doseQuantity": {
+            "value": 1,
+            "unit": "tablet",
+            "system": "http://snomed.info/sct",
+            "code": "385055001"
+          }
+        } ]
+      } ]
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

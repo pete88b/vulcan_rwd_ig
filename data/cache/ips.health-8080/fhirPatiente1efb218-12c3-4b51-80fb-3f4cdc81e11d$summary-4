@@ -1,0 +1,428 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "54b21e0b-acc9-4490-b18a-cde570ac8de7"
+  },
+  "type": "document",
+  "timestamp": "2022-11-04T09:43:19.165+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a",
+    "resource": {
+      "resourceType": "Composition",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      },
+      "date": "2022-11-04T09:43:19+00:00",
+      "author": [ {
+        "reference": "urn:uuid:67f27350-de45-42e4-b2f4-fd20d4d576a4"
+      } ],
+      "title": "Patient Summary as of 11/04/2022",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and Adverse Reactions"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergiesAndIntolerances-48237a50-c5a3-49b6-bd11-ec5ecf39b324\"><td> No known allergies </td><td> active </td><td/><td/><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "AllergyIntolerance/48237a50-c5a3-49b6-bd11-ec5ecf39b324"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Medication List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody/></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationSummary-01cd3136-a14b-49ca-9425-14c4e6c18db7\"><td> No known medications </td><td>Unknown</td><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "MedicationStatement/01cd3136-a14b-49ca-9425-14c4e6c18db7"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody/></table></div>"
+        },
+        "entry": [ {
+          "reference": "Condition/06cf2b70-c343-422c-bccd-c67d5e93af2e"
+        } ]
+      }, {
+        "title": "History of Immunizations",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11369-6",
+            "display": "History of Immunizations"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Immunizations</caption><thead><tr><th>Immunization</th><th>Status</th><th>Dose Number</th><th>Manufacturer</th><th>Lot Number</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Immunizations-14e7ccfc-b4a7-4c27-a9a2-0b5ab405ba47\"><td> Influenza, seasonal, injectable </td><td>COMPLETED</td><td/><td/><td>B52</td><td/><td> Mon Jun 03 00:00:00 UTC 2019 </td></tr><tr id=\"Immunizations-6690a881-a7d4-4a70-a695-686172af4c2b\"><td> Influenza, seasonal, injectable </td><td>COMPLETED</td><td/><td/><td>B52b</td><td/><td> Fri Jul 03 00:00:00 UTC 2020 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Immunization/14e7ccfc-b4a7-4c27-a9a2-0b5ab405ba47"
+        }, {
+          "reference": "Immunization/6690a881-a7d4-4a70-a695-686172af4c2b"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:e1efb218-12c3-4b51-80fb-3f4cdc81e11d",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "e1efb218-12c3-4b51-80fb-3f4cdc81e11d",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:09.302+00:00",
+        "source": "#5W8Yl96aEq2CIBdV"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xml:lang=\"en-NZ\" xmlns=\"http://www.w3.org/1999/xhtml\">Name: James Summerfield</div>"
+      },
+      "identifier": [ {
+        "system": "https://standards.digital.health.nz/ns/nhi-id",
+        "value": "AAA1234"
+      } ],
+      "name": [ {
+        "use": "usual",
+        "family": "Sommerfield",
+        "given": [ "James" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "tel:+6478532279",
+        "use": "home"
+      } ],
+      "gender": "male",
+      "birthDate": "1985-04-25",
+      "address": [ {
+        "use": "home",
+        "type": "physical",
+        "line": [ "Bleak House", "3 Worcester Drive", "Rototuna North" ],
+        "city": "Hamilton",
+        "postalCode": "3210",
+        "country": "NZ"
+      } ],
+      "maritalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+          "code": "M",
+          "display": "Married"
+        } ]
+      },
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+            "code": "FAMMEMB",
+            "display": "family member"
+          }, {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "N",
+            "display": "Next-of-Kin"
+          } ]
+        } ],
+        "name": {
+          "use": "usual",
+          "family": "mother",
+          "given": [ "Natural", "mother" ]
+        }
+      }, {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+            "code": "FRND",
+            "display": "unrelated friend"
+          }, {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "C",
+            "display": "Emergency Contact"
+          } ]
+        } ],
+        "name": {
+          "use": "usual",
+          "family": "Rabbit",
+          "given": [ "Peter", "Rabbit" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "07 853 9191",
+          "use": "home"
+        } ],
+        "address": {
+          "use": "home",
+          "type": "physical",
+          "line": [ "9 Worcester Drive", "Rototuna" ],
+          "city": "Hamilton",
+          "postalCode": "3210",
+          "country": "NZ"
+        }
+      } ],
+      "communication": [ {
+        "language": {
+          "coding": [ {
+            "system": "urn:ietf:bcp:47",
+            "code": "en-NZ"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:48237a50-c5a3-49b6-bd11-ec5ecf39b324",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "48237a50-c5a3-49b6-bd11-ec5ecf39b324",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:10.187+00:00",
+        "source": "#mm4uGIrIzwr5puAx"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a#AllergiesAndIntolerances-48237a50-c5a3-49b6-bd11-ec5ecf39b324"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-known-allergies",
+          "display": "No known allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:06cf2b70-c343-422c-bccd-c67d5e93af2e",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "06cf2b70-c343-422c-bccd-c67d5e93af2e",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:10.358+00:00",
+        "source": "#FanCIfTP7K4RblIR"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a#PastHistoryOfIllnesses-06cf2b70-c343-422c-bccd-c67d5e93af2e"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-known-problems",
+          "display": "No known problems"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:14e7ccfc-b4a7-4c27-a9a2-0b5ab405ba47",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "14e7ccfc-b4a7-4c27-a9a2-0b5ab405ba47",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:10.529+00:00",
+        "source": "#lTaat4VC3osVyOka"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a#Immunizations-14e7ccfc-b4a7-4c27-a9a2-0b5ab405ba47"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "141",
+          "display": "Influenza, seasonal, injectable"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      },
+      "occurrenceDateTime": "2019-06-03",
+      "lotNumber": "B52",
+      "expirationDate": "2019-08-03",
+      "site": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "72098002",
+          "display": "Entire left upper arm"
+        } ]
+      },
+      "route": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code": "IM",
+          "display": "Injection, intramuscular"
+        } ]
+      },
+      "performer": [ {
+        "actor": {
+          "reference": "Organization/2bf27f60-e193-429b-9dfc-6605c29538f0"
+        }
+      } ],
+      "protocolApplied": [ {
+        "series": "45y (Eligible condition (Influenza))",
+        "doseNumberPositiveInt": 1
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:6690a881-a7d4-4a70-a695-686172af4c2b",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "6690a881-a7d4-4a70-a695-686172af4c2b",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:10.723+00:00",
+        "source": "#aiSY8uYKSIO7J6vn"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a#Immunizations-6690a881-a7d4-4a70-a695-686172af4c2b"
+      } ],
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "141",
+          "display": "Influenza, seasonal, injectable"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      },
+      "occurrenceDateTime": "2020-07-03",
+      "lotNumber": "B52b",
+      "expirationDate": "2020-07-03",
+      "site": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "72098002",
+          "display": "Entire left upper arm"
+        } ]
+      },
+      "route": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
+          "code": "IM",
+          "display": "Injection, intramuscular"
+        } ]
+      },
+      "performer": [ {
+        "actor": {
+          "reference": "Organization/2bf27f60-e193-429b-9dfc-6605c29538f0"
+        }
+      } ],
+      "protocolApplied": [ {
+        "series": "45y (Eligible condition (Influenza))",
+        "doseNumberPositiveInt": 2
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:01cd3136-a14b-49ca-9425-14c4e6c18db7",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "01cd3136-a14b-49ca-9425-14c4e6c18db7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:10.918+00:00",
+        "source": "#EyU8gjDzr4hwQ30T"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:def125c0-2c9f-4e19-95da-d3fab28f606a#MedicationSummary-01cd3136-a14b-49ca-9425-14c4e6c18db7"
+      } ],
+      "status": "unknown",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-known-medication",
+          "display": "No known medications"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/e1efb218-12c3-4b51-80fb-3f4cdc81e11d"
+      },
+      "effectivePeriod": {
+        "extension": [ {
+          "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+          "valueCode": "not-applicable"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:2bf27f60-e193-429b-9dfc-6605c29538f0",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "2bf27f60-e193-429b-9dfc-6605c29538f0",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:09.492+00:00",
+        "source": "#7rn59DDLi2D3QRcv"
+      },
+      "identifier": [ {
+        "system": "https://standards.digital.health.nz/ns/psychotherapists-board-id",
+        "value": "F2N000-J"
+      } ],
+      "name": "NorthCare Pukete Road"
+    }
+  }, {
+    "fullUrl": "urn:uuid:67f27350-de45-42e4-b2f4-fd20d4d576a4",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "More Informatics, Inc",
+      "address": [ {
+        "line": [ "59 Washington St." ],
+        "city": "Wellesley",
+        "state": "MA",
+        "postalCode": "02481",
+        "country": "USA"
+      } ]
+    }
+  } ]
+}

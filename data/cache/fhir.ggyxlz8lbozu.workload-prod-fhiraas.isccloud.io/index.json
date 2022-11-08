@@ -91,5 +91,7 @@
   "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationRequest?subject=Patient%2FPatient%2Fff7c22942a1e16167f1b9c44f12aae05": "MedicationRequest-89",
   "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationDispense?subject=Patient%2FPatient%2Fff7c22942a1e16167f1b9c44f12aae05": "MedicationDispense-90",
   "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration?subject=Patient%2FPatient%2Fff7c22942a1e16167f1b9c44f12aae05": "MedicationAdministration-91",
-  "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement?subject=Patient%2FPatient%2Fff7c22942a1e16167f1b9c44f12aae05": "MedicationStatement-92"
+  "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationStatement?subject=Patient%2FPatient%2Fff7c22942a1e16167f1b9c44f12aae05": "MedicationStatement-92",
+  "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/Encounter?reason-code=a%2Cb%2Cc&date=%5B%27ge2014-09-01%27%2C+%27le2015-09-30%27%5D&status=finished": "Encounter-93",
+  "https://fhir.ggyxlz8lbozu.workload-prod-fhiraas.isccloud.io/MedicationAdministration?status=completed&code=http%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C1116632%2Chttp%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C+613391%2Chttp%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C+32968%2Chttp%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C+687667%2Chttp%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C+153658": "MedicationAdministration-94"
 }

@@ -1,0 +1,13 @@
+{
+  "resourceType": "Bundle",
+  "id": "4c2821ae-0dae-4022-9a20-f1fa39730ed9",
+  "meta": {
+    "lastUpdated": "2022-11-08T12:10:31.759+00:00"
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [ {
+    "relation": "self",
+    "url": "http://ips.health:8080/fhir/MedicationStatement?code=http%3A%2F%2Fwww.nlm.nih.gov%2Fresearch%2Fumls%2Frxnorm%7C10060441000116103&status=completed"
+  } ]
+}

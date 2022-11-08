@@ -1,0 +1,13 @@
+{
+  "resourceType": "Bundle",
+  "id": "430fe025-8909-4b1b-983b-780a5d8c3b12",
+  "meta": {
+    "lastUpdated": "2022-11-08T12:29:38.046+00:00"
+  },
+  "type": "searchset",
+  "total": 0,
+  "link": [ {
+    "relation": "self",
+    "url": "http://ips.health:8080/fhir/MedicationStatement?code=10060441000116103"
+  } ]
+}

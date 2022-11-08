@@ -1,0 +1,640 @@
+{
+  "resourceType": "Bundle",
+  "id": "0595d28b-dcbe-4fdf-8665-655f6217ee83",
+  "meta": {
+    "lastUpdated": "2022-11-08T11:21:38.027+00:00"
+  },
+  "type": "searchset",
+  "total": 45,
+  "link": [ {
+    "relation": "self",
+    "url": "http://ips.health:8080/fhir?_getpages=0595d28b-dcbe-4fdf-8665-655f6217ee83&_getpagesoffset=20&_count=20&_pretty=true&_bundletype=searchset"
+  }, {
+    "relation": "next",
+    "url": "http://ips.health:8080/fhir?_getpages=0595d28b-dcbe-4fdf-8665-655f6217ee83&_getpagesoffset=40&_count=20&_pretty=true&_bundletype=searchset"
+  }, {
+    "relation": "previous",
+    "url": "http://ips.health:8080/fhir?_getpages=0595d28b-dcbe-4fdf-8665-655f6217ee83&_getpagesoffset=0&_count=20&_pretty=true&_bundletype=searchset"
+  } ],
+  "entry": [ {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/1063f04e-c558-4f39-ad6c-fafcb8320297",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "1063f04e-c558-4f39-ad6c-fafcb8320297",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:23:19.418+00:00",
+        "source": "#vFmEcwKHtULZvYCS"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:91006b05-411e-4969-8cec-3fde4767ca90"
+      },
+      "encounter": {
+        "reference": "urn:uuid:c7ffe943-c42d-474e-9d61-7a9069d7dac1"
+      },
+      "occurrenceDateTime": "2004-04-18T03:16:14-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/6be1b17b-6c02-4cc2-aa50-95ca4f11b197",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "6be1b17b-6c02-4cc2-aa50-95ca4f11b197",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:23:19.582+00:00",
+        "source": "#pkWhbXaoudFrdPSa"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:91006b05-411e-4969-8cec-3fde4767ca90"
+      },
+      "encounter": {
+        "reference": "urn:uuid:f76928d2-4711-4683-86a6-0f858feaec7e"
+      },
+      "occurrenceDateTime": "2003-04-13T03:16:14-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/4ecfb908-761d-4bdc-ad54-b5a67ce51891",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "4ecfb908-761d-4bdc-ad54-b5a67ce51891",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:23:19.748+00:00",
+        "source": "#QTVCH7wk2Ki42rjR"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:91006b05-411e-4969-8cec-3fde4767ca90"
+      },
+      "encounter": {
+        "reference": "urn:uuid:97287c05-adc3-441e-b915-e002bfc58cfc"
+      },
+      "occurrenceDateTime": "2002-04-07T03:16:14-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/544ab7b5-e5c1-412d-9423-1be5ace93e8a",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "544ab7b5-e5c1-412d-9423-1be5ace93e8a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:06.872+00:00",
+        "source": "#df5eNY5X3H0WQZtp"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:2861ae54-5951-4671-956a-680748e87414"
+      },
+      "occurrenceDateTime": "2019-01-07T23:41:13-05:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/8f3fd0f2-adb3-4800-a0fd-020286aa8577",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "8f3fd0f2-adb3-4800-a0fd-020286aa8577",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.032+00:00",
+        "source": "#Tz0Qf0Hbx6WVOeNd"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:cebd5622-08b2-4082-be5e-f70a4e710ec6"
+      },
+      "occurrenceDateTime": "2018-04-03T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/cf4b8e9c-4056-43fe-a19a-01aec4e870e2",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "cf4b8e9c-4056-43fe-a19a-01aec4e870e2",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.192+00:00",
+        "source": "#AbCZ2ZghNeY6FCFi"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "113",
+          "display": "Td (adult) preservative free"
+        } ],
+        "text": "Td (adult) preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:acbc4452-2565-42d5-92f7-9ed65c28f70a"
+      },
+      "occurrenceDateTime": "2017-03-28T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/e00e45c1-3813-449b-8396-9c1e3282c9e7",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e00e45c1-3813-449b-8396-9c1e3282c9e7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.357+00:00",
+        "source": "#7ARQZa9zV6lPU3CX"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:acbc4452-2565-42d5-92f7-9ed65c28f70a"
+      },
+      "occurrenceDateTime": "2017-03-28T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/98958ab9-1fa8-40f0-ab9e-ea00d30e215f",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "98958ab9-1fa8-40f0-ab9e-ea00d30e215f",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.523+00:00",
+        "source": "#MXaSOzLc0vKSRPPO"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "121",
+          "display": "zoster"
+        } ],
+        "text": "zoster"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:acbc4452-2565-42d5-92f7-9ed65c28f70a"
+      },
+      "occurrenceDateTime": "2017-03-28T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/c2ebb6e6-ce42-4f4a-99e1-7862cbcddd37",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "c2ebb6e6-ce42-4f4a-99e1-7862cbcddd37",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.712+00:00",
+        "source": "#3nupXrVPOo0vI5aL"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:cdb19e05-034d-45ec-b3cd-0177d6a7d4d9"
+      },
+      "occurrenceDateTime": "2016-03-22T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/4c79b352-f037-4c54-b792-a82380beafe6",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "4c79b352-f037-4c54-b792-a82380beafe6",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:07.887+00:00",
+        "source": "#cogCScOjEt9H7q2j"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "121",
+          "display": "zoster"
+        } ],
+        "text": "zoster"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:cdb19e05-034d-45ec-b3cd-0177d6a7d4d9"
+      },
+      "occurrenceDateTime": "2016-03-22T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/99fb2b0c-7779-4669-bf92-b740e6782d8f",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "99fb2b0c-7779-4669-bf92-b740e6782d8f",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:08.057+00:00",
+        "source": "#nMJj0wlwj0p6sMKo"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:4f1cdda8-5335-4f88-9d21-ab071a7fabb6"
+      },
+      "occurrenceDateTime": "2014-04-15T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/28ba8314-1e0c-4d76-a762-e123576461f4",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "28ba8314-1e0c-4d76-a762-e123576461f4",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:08.397+00:00",
+        "source": "#JmRMhzdxwZAUtdlX"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:0199c4ff-e0f2-4469-8e2b-72e8e8dfb4db"
+      },
+      "occurrenceDateTime": "2010-04-06T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/f651b9e4-1ce9-4148-ad29-b992db168e96",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "f651b9e4-1ce9-4148-ad29-b992db168e96",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:08.221+00:00",
+        "source": "#Auwsipb9lOWSYkCJ"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:3160b290-8c66-4a5c-a77b-cb2a3eab495d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:96973ba8-9faf-447e-a595-99e45183df8e"
+      },
+      "occurrenceDateTime": "2012-04-10T00:41:13-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/2bab974e-b462-4260-b942-04f8fe768649",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "2bab974e-b462-4260-b942-04f8fe768649",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:32.937+00:00",
+        "source": "#xrqow3KMTVAgjCbe"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:b36a8228-32e5-4147-9e91-36a920307874"
+      },
+      "occurrenceDateTime": "2015-04-26T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/15651afd-a197-4444-9569-1a349e965374",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "15651afd-a197-4444-9569-1a349e965374",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:31.627+00:00",
+        "source": "#P5tWpL2wSTGZ69lp"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:b3308616-26b2-4eff-8e14-4dd90fbfc7c2"
+      },
+      "occurrenceDateTime": "2019-06-23T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/e8e9ee7f-796e-40a3-a7f5-aadbf29a6919",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "e8e9ee7f-796e-40a3-a7f5-aadbf29a6919",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:31.792+00:00",
+        "source": "#v75vc8ra0AQmNvRK"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:9eaf3171-46f7-4b07-b3c1-f3fb96fda3b6"
+      },
+      "occurrenceDateTime": "2018-06-17T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/113af300-15e1-4621-b21a-ffa1ed44a141",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "113af300-15e1-4621-b21a-ffa1ed44a141",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:31.956+00:00",
+        "source": "#uhzyzgDaMrTukUzw"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "113",
+          "display": "Td (adult) preservative free"
+        } ],
+        "text": "Td (adult) preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:9bf20e86-c736-4399-bb12-17ca61d8a456"
+      },
+      "occurrenceDateTime": "2017-06-18T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/7599b046-9448-4342-a055-9076e5fc71b9",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "7599b046-9448-4342-a055-9076e5fc71b9",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:32.122+00:00",
+        "source": "#j7n8IAaEqdSxJRPR"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:9bf20e86-c736-4399-bb12-17ca61d8a456"
+      },
+      "occurrenceDateTime": "2017-06-18T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/dc04e339-8542-461f-933e-ee2a684b3999",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "dc04e339-8542-461f-933e-ee2a684b3999",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:32.300+00:00",
+        "source": "#J3jMMWKnhgf383fa"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "121",
+          "display": "zoster"
+        } ],
+        "text": "zoster"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:9bf20e86-c736-4399-bb12-17ca61d8a456"
+      },
+      "occurrenceDateTime": "2017-06-18T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  }, {
+    "fullUrl": "http://ips.health:8080/fhir/Immunization/b381b93d-5f8c-41c9-8464-0f752028308e",
+    "resource": {
+      "resourceType": "Immunization",
+      "id": "b381b93d-5f8c-41c9-8464-0f752028308e",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:24:32.462+00:00",
+        "source": "#vewxo4XM580vzKBO"
+      },
+      "status": "completed",
+      "vaccineCode": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        } ],
+        "text": "Influenza, seasonal, injectable, preservative free"
+      },
+      "patient": {
+        "reference": "urn:uuid:5864c62c-a5a2-4cd8-955c-f1d2159e292d"
+      },
+      "encounter": {
+        "reference": "urn:uuid:4377a891-48c8-4a6c-8d2e-f2a7f900644c"
+      },
+      "occurrenceDateTime": "2016-07-31T20:20:27-04:00",
+      "primarySource": true
+    },
+    "search": {
+      "mode": "match"
+    }
+  } ]
+}

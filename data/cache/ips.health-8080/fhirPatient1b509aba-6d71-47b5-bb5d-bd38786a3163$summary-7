@@ -1,0 +1,192 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "17a91f68-f5a8-46de-8f49-0aff70002d95"
+  },
+  "type": "document",
+  "timestamp": "2022-11-04T09:43:21.131+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:c7f03792-9f84-40ba-9376-d3471aa712af",
+    "resource": {
+      "resourceType": "Composition",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/1b509aba-6d71-47b5-bb5d-bd38786a3163"
+      },
+      "date": "2022-11-04T09:43:21+00:00",
+      "author": [ {
+        "reference": "urn:uuid:44641919-47de-48d4-8325-919b95c54abf"
+      } ],
+      "title": "Patient Summary as of 11/04/2022",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and Adverse Reactions"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergiesAndIntolerances-urn:uuid:a112ad55-d1e3-41c2-be51-24f2f6db299e\"><td> No information about allergies </td><td> active </td><td/><td/><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:a112ad55-d1e3-41c2-be51-24f2f6db299e"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Medication List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody/></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationSummary-urn:uuid:276927b7-ea1c-443b-aa2c-1212b3c50325\"><td> No information about medications </td><td>Unknown</td><td/><td/><td/></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:276927b7-ea1c-443b-aa2c-1212b3c50325"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody/></table></div>"
+        },
+        "entry": [ {
+          "reference": "urn:uuid:8053bc34-adf4-40f4-89df-3d7b288ea70a"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:1b509aba-6d71-47b5-bb5d-bd38786a3163",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "1b509aba-6d71-47b5-bb5d-bd38786a3163",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:47.744+00:00",
+        "source": "#Qc7VBTnr4AgevJA7",
+        "profile": [ "http://hitstdio.ntunhs.edu.tw/fhir/StructureDefinition/Patient-dcc" ]
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 310942728</p><p><b>name</b>: 王大明(OFFICIAL)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1990-01-01</p></div>"
+      },
+      "identifier": [ {
+        "system": "http://www.boca.gov.tw/",
+        "value": "310942728"
+      } ],
+      "name": [ {
+        "use": "official",
+        "text": "王大明",
+        "family": "WANG",
+        "given": [ "DAMING" ]
+      } ],
+      "gender": "male",
+      "birthDate": "1990-01-01"
+    }
+  }, {
+    "fullUrl": "urn:uuid:a112ad55-d1e3-41c2-be51-24f2f6db299e",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:c7f03792-9f84-40ba-9376-d3471aa712af#AllergiesAndIntolerances-urn:uuid:a112ad55-d1e3-41c2-be51-24f2f6db299e"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-allergy-info",
+          "display": "No information about allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/1b509aba-6d71-47b5-bb5d-bd38786a3163"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:276927b7-ea1c-443b-aa2c-1212b3c50325",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:c7f03792-9f84-40ba-9376-d3471aa712af#MedicationSummary-urn:uuid:276927b7-ea1c-443b-aa2c-1212b3c50325"
+      } ],
+      "status": "unknown",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-medication-info",
+          "display": "No information about medications"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/1b509aba-6d71-47b5-bb5d-bd38786a3163"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:8053bc34-adf4-40f4-89df-3d7b288ea70a",
+    "resource": {
+      "resourceType": "Condition",
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:c7f03792-9f84-40ba-9376-d3471aa712af#PastHistoryOfIllnesses-urn:uuid:8053bc34-adf4-40f4-89df-3d7b288ea70a"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-problem-info",
+          "display": "No information about problems"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/1b509aba-6d71-47b5-bb5d-bd38786a3163"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:44641919-47de-48d4-8325-919b95c54abf",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "More Informatics, Inc",
+      "address": [ {
+        "line": [ "59 Washington St." ],
+        "city": "Wellesley",
+        "state": "MA",
+        "postalCode": "02481",
+        "country": "USA"
+      } ]
+    }
+  } ]
+}

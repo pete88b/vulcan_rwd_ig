@@ -1,0 +1,1195 @@
+{
+  "resourceType": "Bundle",
+  "identifier": {
+    "system": "urn:ietf:rfc:4122",
+    "value": "cdaf3a4a-cf6a-4a70-81b7-9816729b7756"
+  },
+  "type": "document",
+  "timestamp": "2022-11-04T09:43:18.233+00:00",
+  "entry": [ {
+    "fullUrl": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151",
+    "resource": {
+      "resourceType": "Composition",
+      "status": "final",
+      "type": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "60591-5",
+          "display": "Patient Summary Document"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "date": "2022-11-04T09:43:11+00:00",
+      "author": [ {
+        "reference": "urn:uuid:3ec2a809-c299-49b5-8bdd-78a5397cffe0"
+      } ],
+      "title": "Patient Summary as of 11/04/2022",
+      "confidentiality": "N",
+      "section": [ {
+        "title": "Allergies and Intolerances",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "48765-2",
+            "display": "Allergies and Adverse Reactions"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Allergies And Intolerances</caption><thead><tr><th>Allergen</th><th>Status</th><th>Category</th><th>Reaction</th><th>Severity</th><th>Comments</th><th>Onset</th></tr></thead><tbody><tr id=\"AllergiesAndIntolerances-183c6ff2-512d-48b2-b7da-7e6353d562f7\"><td/><td> active </td><td/><td/><td/><td/><td/></tr><tr id=\"AllergiesAndIntolerances-07b6ba95-af6e-4ebd-8af9-59129d2991ab\"><td> Substance with penicillin structure and antibacterial mechanism of action (substance) </td><td> active </td><td> MEDICATION </td><td/><td/><td/><td>Fri Jan 01 00:00:00 UTC 2010</td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "AllergyIntolerance/183c6ff2-512d-48b2-b7da-7e6353d562f7"
+        }, {
+          "reference": "AllergyIntolerance/07b6ba95-af6e-4ebd-8af9-59129d2991ab"
+        } ]
+      }, {
+        "title": "Medication List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "10160-0",
+            "display": "Medication List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Requests</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Comments</th><th>Authored Date</th></tr></thead><tbody><tr id=\"MedicationSummary-1025b66b-5389-4b49-9679-1771774b410a\"><td> atorvastatin 40mg Oral Tablet </td><td>Active</td><td/><td> 40 mg/day </td><td/><td/></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Medication Summary: Medication Statements</caption><thead><tr><th>Medication</th><th>Status</th><th>Route</th><th>Sig</th><th>Date</th></tr></thead><tbody><tr id=\"MedicationSummary-b000ded6-53fd-41a6-9a19-cc228d349ce8\"><td> Product containing anastrozole (medicinal product) <br/> ANASTROZOL 1MG TABLET <br/> ANASTROZOL CF TABLET FILMOMHULD 1MG <br/> anastrozole </td><td>Active</td><td> Oral use </td><td/><td> Sun Mar 01 00:00:00 UTC 2015 </td></tr><tr id=\"MedicationSummary-88c491d7-c635-4c5a-a752-659592a7bbe7\"><td> Black Cohosh Extract herbal supplement </td><td>Active</td><td> Oral use </td><td/><td> Fri Jan 01 00:00:00 UTC 2016 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "MedicationStatement/b000ded6-53fd-41a6-9a19-cc228d349ce8"
+        }, {
+          "reference": "MedicationStatement/88c491d7-c635-4c5a-a752-659592a7bbe7"
+        }, {
+          "reference": "MedicationRequest/1025b66b-5389-4b49-9679-1771774b410a"
+        } ]
+      }, {
+        "title": "Problem List",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11450-4",
+            "display": "Problem List"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Problem List</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Onset Date</th></tr></thead><tbody/></table></div>"
+        },
+        "entry": [ {
+          "reference": "Condition/ba7fb01f-8d75-4333-881a-f065b4e757b4"
+        }, {
+          "reference": "Condition/5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f"
+        } ]
+      }, {
+        "title": "Diagnostic Results",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "30954-2",
+            "display": "Diagnostic Results"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Diagnostic Results: Observations</caption><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Interpretation</th><th>Reference Range</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"DiagnosticResults-6f3de8a5-70fd-43fe-8847-a0a87b917f81\"><td> Hemoglobin A1c/Hemoglobin.total in Blood by HPLC </td><td> 7.5 </td><td> % </td><td/><td/><td> Above stated goal of 7.0 % </td><td> Fri Nov 10 07:20:00 UTC 2017 </td></tr><tr id=\"DiagnosticResults-0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7\"><td> E Ab [Presence] in Serum or Plasma </td><td> Positive </td><td/><td/><td/><td/><td> Sat Oct 10 08:35:00 UTC 2015 </td></tr><tr id=\"DiagnosticResults-037230ec-4a4f-464a-846c-ca6bc7683f3a\"><td> ABO and Rh group [Type] in Blood </td><td> Blood group A Rh(D) positive </td><td/><td/><td/><td/><td> Sat Oct 10 08:15:00 UTC 2015 </td></tr><tr id=\"DiagnosticResults-b2fad9e8-a21f-439e-bde1-a4206c6ea7f5\"><td> little c Ab [Presence] in Serum or Plasma </td><td> Negative </td><td/><td/><td/><td/><td> Sat Oct 10 08:35:00 UTC 2015 </td></tr><tr id=\"DiagnosticResults-28849558-f772-4aae-a653-acb72ceb3861\"><td> C Ab [Presence] in Serum or Plasma </td><td> Positive </td><td/><td/><td/><td/><td> Sat Oct 10 08:35:00 UTC 2015 </td></tr><tr id=\"DiagnosticResults-b8d39267-ad17-4d7b-92d2-66bea9858830\"><td> Bacteria identified in Isolate </td><td> Methicillin resistant Staphylococcus aureus </td><td/><td/><td/><td> Healthy carrier of MRSA </td><td> Sun Dec 10 07:20:00 UTC 2017 </td></tr><tr id=\"DiagnosticResults-4e3c83db-9ff4-47d3-af07-432691cfcb0f\"><td> Blood typing </td><td/><td/><td/><td/><td/><td> Sat Oct 10 00:00:00 UTC 2015 </td></tr></tbody></table><table class=\"hapiPropertyTable\"><caption>Diagnostic Results: Diagnostic Reports</caption><thead><tr><th>Code</th><th>Date</th></tr></thead><tbody/></table></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/6f3de8a5-70fd-43fe-8847-a0a87b917f81"
+        }, {
+          "reference": "Observation/0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7"
+        }, {
+          "reference": "Observation/037230ec-4a4f-464a-846c-ca6bc7683f3a"
+        }, {
+          "reference": "Observation/b2fad9e8-a21f-439e-bde1-a4206c6ea7f5"
+        }, {
+          "reference": "Observation/28849558-f772-4aae-a653-acb72ceb3861"
+        }, {
+          "reference": "Observation/b8d39267-ad17-4d7b-92d2-66bea9858830"
+        }, {
+          "reference": "Observation/4e3c83db-9ff4-47d3-af07-432691cfcb0f"
+        } ]
+      }, {
+        "title": "History of Past Illness",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11348-0",
+            "display": "History of Past Illness"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Past History of Illnesses</caption><thead><tr><th>Medical Problems</th><th>Status</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"PastHistoryOfIllnesses-ba7fb01f-8d75-4333-881a-f065b4e757b4\"><td> Menopausal flushing (finding) <br/> Menopausal and female climacteric states </td><td> active </td><td/><td> Thu Jan 01 00:00:00 UTC 2015 </td></tr><tr id=\"PastHistoryOfIllnesses-5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f\"><td> Malignant tumor of breast <br/> Infiltrating duct carcinoma, NOS </td><td> remission </td><td/><td> Thu Jan 01 00:00:00 UTC 2015 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Condition/5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f"
+        } ]
+      }, {
+        "title": "Pregnancy Information",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "11362-0",
+            "display": "Pregnancy Information"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Pregnancy</caption><thead><tr><th>Code</th><th>Result</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"Pregnancy-5ea87412-7eb5-4bd9-a23e-e67f83e51801\"><td> Pregnancy status </td><td> Pregnant </td><td/><td> Fri Jan 10 00:00:00 UTC 2020 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/5ea87412-7eb5-4bd9-a23e-e67f83e51801"
+        } ]
+      }, {
+        "title": "Social History",
+        "code": {
+          "coding": [ {
+            "system": "http://loinc.org",
+            "code": "29762-2",
+            "display": "Social History"
+          } ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><caption>Social History</caption><thead><tr><th>Code</th><th>Result</th><th>Unit</th><th>Comments</th><th>Date</th></tr></thead><tbody><tr id=\"SocialHistory-1da8de06-22be-48e0-b742-ca1bc57a05bc\"><td> Tobacco smoking status </td><td> Former smoker </td><td/><td/><td> Mon Jul 15 00:00:00 UTC 2019 </td></tr><tr id=\"SocialHistory-bc970c05-d45b-4301-9ab9-d1dab38f2d80\"><td> Alcoholic drinks per day </td><td> 2 </td><td/><td/><td> Mon Jul 15 00:00:00 UTC 2019 </td></tr></tbody></table></div>"
+        },
+        "entry": [ {
+          "reference": "Observation/1da8de06-22be-48e0-b742-ca1bc57a05bc"
+        }, {
+          "reference": "Observation/bc970c05-d45b-4301-9ab9-d1dab38f2d80"
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24",
+    "resource": {
+      "resourceType": "Patient",
+      "id": "6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:04.889+00:00",
+        "source": "#Rftg1EtB63tXa7N8"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;2b90dd2b-2dab-4c75-9bb9-a355e07401e8&quot; </p></div><p><b>identifier</b>: id: 574687583</p><p><b>active</b>: true</p><p><b>name</b>: Martha DeLarosa </p><p><b>telecom</b>: <a href=\"tel:+31788700800\">+31788700800</a></p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1972-05-01</p><p><b>address</b>: Laan Van Europa 1600 Dordrecht 3317 DB NL </p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td>*</td><td>mother <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#MTH)</span></td><td>Martha Mum </td><td><a href=\"tel:+33-555-20036\">+33-555-20036</a></td><td>Promenade des Anglais 111 Lyon 69001 FR </td></tr></table></div>"
+      },
+      "identifier": [ {
+        "system": "urn:oid:2.16.840.1.113883.2.4.6.3",
+        "value": "12223445"
+      } ],
+      "active": true,
+      "name": [ {
+        "family": "Roster",
+        "given": [ "Angela" ]
+      } ],
+      "telecom": [ {
+        "system": "phone",
+        "value": "+31788700800",
+        "use": "home"
+      } ],
+      "gender": "female",
+      "birthDate": "1972-05-01",
+      "address": [ {
+        "line": [ "Laan Van Europa 1600" ],
+        "city": "Dordrecht",
+        "postalCode": "3317 DB",
+        "country": "NL"
+      } ],
+      "contact": [ {
+        "relationship": [ {
+          "coding": [ {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+            "code": "C"
+          }, {
+            "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+            "code": "MTH"
+          } ]
+        } ],
+        "name": {
+          "family": "Mum",
+          "given": [ "Martha" ]
+        },
+        "telecom": [ {
+          "system": "phone",
+          "value": "+33-555-20036",
+          "use": "home"
+        } ],
+        "address": {
+          "line": [ "Promenade des Anglais 111" ],
+          "city": "Lyon",
+          "postalCode": "69001",
+          "country": "FR"
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:183c6ff2-512d-48b2-b7da-7e6353d562f7",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "183c6ff2-512d-48b2-b7da-7e6353d562f7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:05.954+00:00",
+        "source": "#Kgu8f7nthkivzymz"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;c7781f44-6df8-4a8b-9e06-0b34263a47c5&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>code</b>: No known food allergies <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-absent-unknown-uv-ips.html\">Absent and Unknown Data - IPS</a>#no-known-food-allergies)</span></p><p><b>patient</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#AllergiesAndIntolerances-183c6ff2-512d-48b2-b7da-7e6353d562f7"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+          "code": "no-known-food-allergies"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:07b6ba95-af6e-4ebd-8af9-59129d2991ab",
+    "resource": {
+      "resourceType": "AllergyIntolerance",
+      "id": "07b6ba95-af6e-4ebd-8af9-59129d2991ab",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:06.131+00:00",
+        "source": "#oAofbwmuvT0bB2Ly"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;72884cad-ebe6-4f43-a51a-2f978275f132&quot; </p></div><p><b>identifier</b>: id: 3a462598-009c-484a-965c-d6b24a821424</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-clinical.html\">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-allergyintolerance-verification.html\">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>type</b>: allergy</p><p><b>category</b>: medication</p><p><b>criticality</b>: high</p><p><b>code</b>: Substance with penicillin structure and antibacterial mechanism of action (substance) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#373270004)</span></p><p><b>patient</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>onset</b>: 2010-01-01</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#AllergiesAndIntolerances-07b6ba95-af6e-4ebd-8af9-59129d2991ab"
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:1.2.3.999",
+        "value": "3a462598-009c-484a-965c-d6b24a821424"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        } ]
+      },
+      "type": "allergy",
+      "category": [ "medication" ],
+      "criticality": "high",
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "373270004",
+          "display": "Substance with penicillin structure and antibacterial mechanism of action (substance)"
+        } ]
+      },
+      "patient": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "onsetDateTime": "2010"
+    }
+  }, {
+    "fullUrl": "urn:uuid:ba7fb01f-8d75-4333-881a-f065b4e757b4",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "ba7fb01f-8d75-4333-881a-f065b4e757b4",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:06.320+00:00",
+        "source": "#zDpYXqlCFWi4CHRQ"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;c64139e7-f02d-409c-bf34-75e8bf23bc80&quot; </p></div><p><b>identifier</b>: id: c87bf51c-e53c-4bfe-b8b7-aa62bdd93002</p><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Problem <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#75326-9)</span></p><p><b>severity</b>: Moderate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA6751-7)</span></p><p><b>code</b>: Menopausal flushing (finding) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#198436008; <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-icd10.html\">ICD-10</a>#N95.1 &quot;Menopausal and female climacteric states&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>onset</b>: 2015-01-01</p><p><b>recordedDate</b>: 2016-10-01</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#PastHistoryOfIllnesses-ba7fb01f-8d75-4333-881a-f065b4e757b4"
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:1.2.3.999",
+        "value": "c87bf51c-e53c-4bfe-b8b7-aa62bdd93002"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }, {
+          "system": "http://loinc.org",
+          "code": "75326-9",
+          "display": "Problem"
+        } ]
+      } ],
+      "severity": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA6751-7",
+          "display": "Moderate"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "198436008",
+          "display": "Menopausal flushing (finding)",
+          "_display": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [ {
+                "url": "lang",
+                "valueCode": "nl-NL"
+              }, {
+                "url": "content",
+                "valueString": "opvliegers"
+              } ]
+            } ]
+          }
+        }, {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "N95.1",
+          "display": "Menopausal and female climacteric states"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "onsetDateTime": "2015",
+      "recordedDate": "2016-10"
+    }
+  }, {
+    "fullUrl": "urn:uuid:5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f",
+    "resource": {
+      "resourceType": "Condition",
+      "id": "5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:06.499+00:00",
+        "source": "#ScKArVHF7A4zUIWp"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;c4597aa2-688a-401b-a658-70acc6de28c6&quot; </p></div><p><b>identifier</b>: id: 66d4a8c7-9081-43e0-a63f-489c2ae6edd6</p><p><b>clinicalStatus</b>: Remission <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#remission)</span></p><p><b>verificationStatus</b>: Confirmed <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-condition-ver-status.html\">ConditionVerificationStatus</a>#confirmed)</span></p><p><b>category</b>: Problem <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#75326-9)</span></p><p><b>severity</b>: Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA6750-9)</span></p><p><b>code</b>: Malignant tumor of breast <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#254837009; unknown#8500/3 &quot;Infiltrating duct carcinoma, NOS&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>onset</b>: 2015-01-01</p><p><b>abatement</b>: 2015-03-01</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#PastHistoryOfIllnesses-5dd4100a-7657-4e0d-b18b-d1e0a9f55a5f"
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:1.2.3.999",
+        "value": "66d4a8c7-9081-43e0-a63f-489c2ae6edd6"
+      } ],
+      "clinicalStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "remission"
+        } ]
+      },
+      "verificationStatus": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+          "code": "confirmed"
+        } ]
+      },
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+          "code": "problem-list-item",
+          "display": "Problem List Item"
+        }, {
+          "system": "http://loinc.org",
+          "code": "75326-9",
+          "display": "Problem"
+        } ]
+      } ],
+      "severity": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA6750-9",
+          "display": "Severe"
+        } ]
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "254837009",
+          "display": "Malignant tumor of breast",
+          "_display": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [ {
+                "url": "lang",
+                "valueCode": "nl-NL"
+              }, {
+                "url": "content",
+                "valueString": "Borstkanker stadium II zonder aanwijzingen van recidieven na behandeling"
+              } ]
+            } ]
+          }
+        }, {
+          "system": "urn:oid:2.16.840.1.113883.6.43.1",
+          "code": "8500/3",
+          "display": "Infiltrating duct carcinoma, NOS"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "onsetDateTime": "2015-01",
+      "abatementDateTime": "2015-03"
+    }
+  }, {
+    "fullUrl": "urn:uuid:1da8de06-22be-48e0-b742-ca1bc57a05bc",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "1da8de06-22be-48e0-b742-ca1bc57a05bc",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:06.695+00:00",
+        "source": "#rsPed4HetDubXAUx"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"tobacco-use-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;tobacco-use-example&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Tobacco smoking status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#72166-2)</span></p><p><b>subject</b>: <a href=\"Patient-patient-example-female.html\">Patient/patient-example-female</a> &quot; DELAROSA&quot;</p><p><b>effective</b>: 2019-07-15</p><p><b>value</b>: Former smoker <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA15920-4)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#SocialHistory-1da8de06-22be-48e0-b742-ca1bc57a05bc"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco smoking status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2019-07-15",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15920-4",
+          "display": "Former smoker"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:bc970c05-d45b-4301-9ab9-d1dab38f2d80",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "bc970c05-d45b-4301-9ab9-d1dab38f2d80",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:06.884+00:00",
+        "source": "#tj9NP6y1IuVbmVqI"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"alcohol-use-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;alcohol-use-example&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Alcoholic drinks per day <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#74013-4)</span></p><p><b>subject</b>: <a href=\"Patient-patient-example-female.html\">Patient/patient-example-female</a> &quot; DELAROSA&quot;</p><p><b>effective</b>: 2019-07-15</p><p><b>value</b>: 2 {wine glasses}/d<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {wine glasses}/d = '{wine glasses}/d')</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#SocialHistory-bc970c05-d45b-4301-9ab9-d1dab38f2d80"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "social-history"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "74013-4",
+          "display": "Alcoholic drinks per day"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2019-07-15",
+      "valueQuantity": {
+        "value": 2,
+        "system": "http://unitsofmeasure.org",
+        "code": "{wine glasses}/d"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:5ea87412-7eb5-4bd9-a23e-e67f83e51801",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "5ea87412-7eb5-4bd9-a23e-e67f83e51801",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:07.084+00:00",
+        "source": "#wxRJx8F4oBV3YVGC"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"pregnancy-status-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;pregnancy-status-example&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82810-3)</span></p><p><b>subject</b>: <a href=\"Patient-patient-example-female.html\">Patient/patient-example-female</a> &quot; DELAROSA&quot;</p><p><b>effective</b>: 2020-01-10</p><p><b>value</b>: Pregnant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA15173-0)</span></p><p><b>hasMember</b>: <a href=\"Observation-pregnancy-edd-example.html\">Observation/pregnancy-edd-example</a></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#Pregnancy-5ea87412-7eb5-4bd9-a23e-e67f83e51801"
+      } ],
+      "status": "final",
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "82810-3",
+          "display": "Pregnancy status"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2020-01-10",
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "LA15173-0",
+          "display": "Pregnant"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:6f3de8a5-70fd-43fe-8847-a0a87b917f81",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "6f3de8a5-70fd-43fe-8847-a0a87b917f81",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:07.258+00:00",
+        "source": "#BgtT4OsVFiD6prDc"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;cc354e00-a419-47ea-8b6c-1768b2a01646&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Hemoglobin A1c/Hemoglobin.total in Blood by HPLC <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#17856-6)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2017-11-10T08:20:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: 7.5 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code % = '%')</span></p><p><b>note</b>: Above stated goal of 7.0 %</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-6f3de8a5-70fd-43fe-8847-a0a87b917f81"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "17856-6",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2017-11-10T08:20:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueQuantity": {
+        "value": 7.5,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      },
+      "note": [ {
+        "text": "Above stated goal of 7.0 %"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:07.438+00:00",
+        "source": "#Iw20DGlgup3G4yTL"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;b4916505-a06b-460c-9be8-011609282457&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: E Ab [Presence] in Serum or Plasma <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#1018-1)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-10-10T09:35:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: Positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#10828004)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "1018-1",
+          "display": "E Ab [Presence] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2015-10-10T09:35:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "10828004",
+          "display": "Positive"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:037230ec-4a4f-464a-846c-ca6bc7683f3a",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "037230ec-4a4f-464a-846c-ca6bc7683f3a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:07.624+00:00",
+        "source": "#6WytaAKZ8sOeofg0"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;aa11a2be-3e36-4be7-b58a-6fc3dace2741&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: ABO and Rh group [Type] in Blood <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#882-1)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-10-10T09:15:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: Blood group A Rh(D) positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#278149003)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-037230ec-4a4f-464a-846c-ca6bc7683f3a"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "882-1",
+          "display": "ABO and Rh group [Type] in Blood"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2015-10-10T09:15:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "278149003",
+          "display": "Blood group A Rh(D) positive"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b2fad9e8-a21f-439e-bde1-a4206c6ea7f5",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "b2fad9e8-a21f-439e-bde1-a4206c6ea7f5",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:07.818+00:00",
+        "source": "#XoMEHlHX8Qn88K8M"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: little c Ab [Presence] in Serum or Plasma <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#1156-9)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-10-10T09:35:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: Negative <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#260385009)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-b2fad9e8-a21f-439e-bde1-a4206c6ea7f5"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "1156-9",
+          "display": "little c Ab [Presence] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2015-10-10T09:35:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "260385009",
+          "display": "Negative"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:28849558-f772-4aae-a653-acb72ceb3861",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "28849558-f772-4aae-a653-acb72ceb3861",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.003+00:00",
+        "source": "#upvE76G2uIynqn0D"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;6e39ccf3-f997-4a2b-8f28-b4b71c778c70&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: C Ab [Presence] in Serum or Plasma <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#945-6)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-10-10T09:35:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: Positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#10828004)</span></p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-28849558-f772-4aae-a653-acb72ceb3861"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "945-6",
+          "display": "C Ab [Presence] in Serum or Plasma"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2015-10-10T09:35:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "10828004",
+          "display": "Positive"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b8d39267-ad17-4d7b-92d2-66bea9858830",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "b8d39267-ad17-4d7b-92d2-66bea9858830",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.198+00:00",
+        "source": "#qlYYZXwAO1jzo9HA"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;26bee0a9-5997-4557-ab9d-c6adbb05b572&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Bacteria identified in Isolate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#42803-7)</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2017-12-10T08:20:00+01:00</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>value</b>: Methicillin resistant Staphylococcus aureus <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#115329001)</span></p><p><b>note</b>: Healthy carrier of MRSA</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-b8d39267-ad17-4d7b-92d2-66bea9858830"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "coding": [ {
+          "system": "http://loinc.org",
+          "code": "42803-7",
+          "display": "Bacteria identified in Isolate"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2017-12-10T08:20:00+01:00",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "valueCodeableConcept": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "115329001",
+          "display": "Methicillin resistant Staphylococcus aureus"
+        } ]
+      },
+      "note": [ {
+        "text": "Healthy carrier of MRSA"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:4e3c83db-9ff4-47d3-af07-432691cfcb0f",
+    "resource": {
+      "resourceType": "Observation",
+      "id": "4e3c83db-9ff4-47d3-af07-432691cfcb0f",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.383+00:00",
+        "source": "#SWJtrkEHLZ2CVbsv"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;2639657a-c19a-48e2-82cc-471e13b8ad94&quot; </p></div><p><b>status</b>: final</p><p><b>category</b>: Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#laboratory)</span></p><p><b>code</b>: Blood typing <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-10-10</p><p><b>performer</b>: <a href=\"#Organization_45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7\">See above (Organization/45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7)</a></p><p><b>hasMember</b>: </p><ul><li><a href=\"#Observation_aa11a2be-3e36-4be7-b58a-6fc3dace2741\">See above (Observation/aa11a2be-3e36-4be7-b58a-6fc3dace2741)</a></li><li><a href=\"#Observation_6e39ccf3-f997-4a2b-8f28-b4b71c778c70\">See above (Observation/6e39ccf3-f997-4a2b-8f28-b4b71c778c70)</a></li><li><a href=\"#Observation_b4916505-a06b-460c-9be8-011609282457\">See above (Observation/b4916505-a06b-460c-9be8-011609282457)</a></li><li><a href=\"#Observation_a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4\">See above (Observation/a6a5a1d5-c896-4c7e-b922-888fcc7e6ae4)</a></li></ul></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#DiagnosticResults-4e3c83db-9ff4-47d3-af07-432691cfcb0f"
+      } ],
+      "status": "final",
+      "category": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        } ]
+      } ],
+      "code": {
+        "text": "Blood typing"
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectiveDateTime": "2015-10-10",
+      "performer": [ {
+        "reference": "Organization/4f4323c8-c215-447b-aaac-06ab2d9fad11"
+      } ],
+      "hasMember": [ {
+        "reference": "Observation/037230ec-4a4f-464a-846c-ca6bc7683f3a"
+      }, {
+        "reference": "Observation/28849558-f772-4aae-a653-acb72ceb3861"
+      }, {
+        "reference": "Observation/0b0982b4-80b5-4dd7-b76b-dde6e4ad4ca7"
+      }, {
+        "reference": "Observation/b2fad9e8-a21f-439e-bde1-a4206c6ea7f5"
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:1025b66b-5389-4b49-9679-1771774b410a",
+    "resource": {
+      "resourceType": "MedicationRequest",
+      "id": "1025b66b-5389-4b49-9679-1771774b410a",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.560+00:00",
+        "source": "#PVwKF5vuWP3ibZEe"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#MedicationSummary-1025b66b-5389-4b49-9679-1771774b410a"
+      } ],
+      "status": "active",
+      "intent": "order",
+      "medicationCodeableConcept": {
+        "coding": [ {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617311",
+          "display": "atorvastatin 40mg Oral Tablet"
+        } ]
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "dosageInstruction": [ {
+        "text": "40 mg/day",
+        "timing": {
+          "repeat": {
+            "frequency": 1,
+            "period": 1,
+            "periodUnit": "d"
+          }
+        },
+        "doseAndRate": [ {
+          "doseQuantity": {
+            "value": 40,
+            "unit": "mg",
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          }
+        } ]
+      } ],
+      "dispenseRequest": {
+        "validityPeriod": {
+          "start": "2021-01-01"
+        }
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:b000ded6-53fd-41a6-9a19-cc228d349ce8",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "b000ded6-53fd-41a6-9a19-cc228d349ce8",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.743+00:00",
+        "source": "#noF10bLPWvqiM919"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;c220e36c-eb67-4fc4-9ba1-2fabc52acec6&quot; </p></div><p><b>identifier</b>: id: b75f92cb-61d4-469a-9387-df5ef70d25f0</p><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_976d0804-cae0-45ae-afe3-a19f3ceba6bc\">See above (Medication/976d0804-cae0-45ae-afe3-a19f3ceba6bc)</a></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2015-03-01 --&gt; (ongoing)</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#MedicationSummary-b000ded6-53fd-41a6-9a19-cc228d349ce8"
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:1.2.3.999",
+        "value": "b75f92cb-61d4-469a-9387-df5ef70d25f0"
+      } ],
+      "status": "active",
+      "medicationReference": {
+        "reference": "Medication/4a22ae19-44d6-4633-ae4b-c5c589eee0ce"
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectivePeriod": {
+        "start": "2015-03"
+      },
+      "dosage": [ {
+        "timing": {
+          "repeat": {
+            "count": 1,
+            "periodUnit": "d"
+          }
+        },
+        "route": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu",
+            "code": "20053000",
+            "display": "Oral use"
+          } ]
+        },
+        "doseAndRate": [ {
+          "type": {
+            "coding": [ {
+              "system": "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+              "code": "ordered",
+              "display": "Ordered"
+            } ]
+          },
+          "doseQuantity": {
+            "value": 1,
+            "unit": "tablet",
+            "system": "http://unitsofmeasure.org",
+            "code": "1"
+          }
+        } ]
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:88c491d7-c635-4c5a-a752-659592a7bbe7",
+    "resource": {
+      "resourceType": "MedicationStatement",
+      "id": "88c491d7-c635-4c5a-a752-659592a7bbe7",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:08.938+00:00",
+        "source": "#p26zVFs0K9uYghzR"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;47524493-846a-4a26-bae2-4ab03e60f02e&quot; </p></div><p><b>identifier</b>: id: 9e312d6b-c6b6-439a-a730-6efaa5dcf8bc</p><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_8adc0999-9468-4ac9-9557-680fa133d626\">See above (Medication/8adc0999-9468-4ac9-9557-680fa133d626)</a></p><p><b>subject</b>: <a href=\"#Patient_2b90dd2b-2dab-4c75-9bb9-a355e07401e8\">See above (Patient/2b90dd2b-2dab-4c75-9bb9-a355e07401e8)</a></p><p><b>effective</b>: 2016-01-01 --&gt; (ongoing)</p></div>"
+      },
+      "extension": [ {
+        "url": "http://hl7.org/fhir/StructureDefinition/NarrativeLink",
+        "valueUri": "urn:uuid:f60d4dd4-377b-47e2-b954-1cdf3c54b151#MedicationSummary-88c491d7-c635-4c5a-a752-659592a7bbe7"
+      } ],
+      "identifier": [ {
+        "system": "urn:oid:1.2.3.999",
+        "value": "9e312d6b-c6b6-439a-a730-6efaa5dcf8bc"
+      } ],
+      "status": "active",
+      "medicationReference": {
+        "reference": "Medication/e47e9474-848f-4def-8cbf-ff9d5bd71b37"
+      },
+      "subject": {
+        "reference": "Patient/6c968ec2-5e95-4d4b-87f9-0c2b9ac99a24"
+      },
+      "effectivePeriod": {
+        "start": "2016-01"
+      },
+      "dosage": [ {
+        "route": {
+          "coding": [ {
+            "system": "http://standardterms.edqm.eu",
+            "code": "20053000",
+            "display": "Oral use"
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "fullUrl": "urn:uuid:4a22ae19-44d6-4633-ae4b-c5c589eee0ce",
+    "resource": {
+      "resourceType": "Medication",
+      "id": "4a22ae19-44d6-4633-ae4b-c5c589eee0ce",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:05.613+00:00",
+        "source": "#lZkDKD1EozLek75r"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;976d0804-cae0-45ae-afe3-a19f3ceba6bc&quot; </p></div><p><b>code</b>: Product containing anastrozole (medicinal product) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#108774000; unknown#99872 &quot;ANASTROZOL 1MG TABLET&quot;; unknown#2076667 &quot;ANASTROZOL CF TABLET FILMOMHULD 1MG&quot;; <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-atc.html\">WHO ATC</a>#L02BG03 &quot;anastrozole&quot;)</span></p></div>"
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "108774000",
+          "display": "Product containing anastrozole (medicinal product)"
+        }, {
+          "system": "urn:oid:2.16.840.1.113883.2.4.4.1",
+          "code": "99872",
+          "display": "ANASTROZOL 1MG TABLET"
+        }, {
+          "system": "urn:oid:2.16.840.1.113883.2.4.4.7",
+          "code": "2076667",
+          "display": "ANASTROZOL CF TABLET FILMOMHULD 1MG"
+        }, {
+          "system": "http://www.whocc.no/atc",
+          "code": "L02BG03",
+          "display": "anastrozole"
+        } ]
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:e47e9474-848f-4def-8cbf-ff9d5bd71b37",
+    "resource": {
+      "resourceType": "Medication",
+      "id": "e47e9474-848f-4def-8cbf-ff9d5bd71b37",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:05.788+00:00",
+        "source": "#Bz0lJxPbhz0XF9H7"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;8adc0999-9468-4ac9-9557-680fa133d626&quot; </p></div><p><b>code</b>: Black Cohosh Extract herbal supplement <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#412588001 &quot;Cimicifuga racemosa extract (substance)&quot;; <a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-atc.html\">WHO ATC</a>#G02CX04 &quot;Cimicifugae rhizoma&quot;)</span></p></div>"
+      },
+      "code": {
+        "coding": [ {
+          "system": "http://snomed.info/sct",
+          "code": "412588001",
+          "display": "Cimicifuga racemosa extract (substance)",
+          "_display": {
+            "extension": [ {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [ {
+                "url": "lang",
+                "valueCode": "nl-NL"
+              }, {
+                "url": "content",
+                "valueString": "Zwarte Cohosh Extract"
+              } ]
+            } ]
+          }
+        }, {
+          "system": "http://www.whocc.no/atc",
+          "code": "G02CX04",
+          "display": "Cimicifugae rhizoma"
+        } ],
+        "text": "Black Cohosh Extract herbal supplement"
+      }
+    }
+  }, {
+    "fullUrl": "urn:uuid:4f4323c8-c215-447b-aaac-06ab2d9fad11",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "4f4323c8-c215-447b-aaac-06ab2d9fad11",
+      "meta": {
+        "versionId": "1",
+        "lastUpdated": "2022-09-27T15:22:05.268+00:00",
+        "source": "#vFmo6uGTywUdwaW4"
+      },
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7&quot; </p></div><p><b>active</b>: true</p><p><b>type</b>: Other <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-organization-type.html\">Organization type</a>#other)</span></p><p><b>name</b>: Laboratoire de charme</p></div>"
+      },
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "other"
+        } ]
+      } ],
+      "name": "Laboratoire de charme"
+    }
+  }, {
+    "fullUrl": "urn:uuid:3ec2a809-c299-49b5-8bdd-78a5397cffe0",
+    "resource": {
+      "resourceType": "Organization",
+      "name": "More Informatics, Inc",
+      "address": [ {
+        "line": [ "59 Washington St." ],
+        "city": "Wellesley",
+        "state": "MA",
+        "postalCode": "02481",
+        "country": "USA"
+      } ]
+    }
+  } ]
+}
