@@ -48,5 +48,6 @@
   "http://ips.health:8080/fhir/MedicationStatement?medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103&_revinclude=Medication": "fhirMedicationStatement-46",
   "http://ips.health:8080/fhir/MedicationStatement?medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103&_include=Medication%3AmedicationReference": "fhirMedicationStatement-47",
   "http://ips.health:8080/fhir/MedicationStatement?_include=medicationReference&medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103": "fhirMedicationStatement-48",
-  "http://ips.health:8080/fhir/MedicationStatement?_include=Medication.medicationReference&medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103": "fhirMedicationStatement-49"
+  "http://ips.health:8080/fhir/MedicationStatement?_include=Medication.medicationReference&medication.code=http%3A%2F%2Fnzmt.org.nz%7C10060441000116103": "fhirMedicationStatement-49",
+  "http://ips.health:8080/fhir/example-r4/$retrieveExtendedIPS?": "fhirexample-r4$retrieveExtendedIPS-50"
 }
